@@ -1,0 +1,23 @@
+h1 {
+	color: #580000;
+	font-family: Arial;
+text-align: center;
+}
+
+h2{
+	color: 006633;
+	font-family:Times ;
+	text-align: center ;
+}
+h3{
+	color:336633 ;
+	font-family:serif ;
+	text-align: center;
+}
+
+body {
+	background-color: #B8860B;
+	color: #BDB76B;
+	font-family: "Lucida Console" ;
+	padding: 50px;
+}
