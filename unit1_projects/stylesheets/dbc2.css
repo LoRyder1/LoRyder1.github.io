@@ -1,0 +1,49 @@
+  
+#content {
+      width: 500px;
+      height: 350px;
+}
+
+#left {
+   width: 100px;
+   height: 100%;
+   float: left;
+   background-color: red
+}
+
+#right {
+   margin-left: 100px;
+   height: 100%;
+   background-color: blue;
+}
+
+body {
+padding: 50px;
+   background-color: green;
+}
+
+p {
+padding: 10px;
+}
+
+.sidebar{
+padding: 9px;
+border: 1px solid black;
+}
+
+.align-center{
+text-align: center;
+font-weight: normal;
+border: 1px solid black;
+}
+.white{
+color:white;
+font-weight: normal;
+}
+
+.relative{
+   position: relative;
+   right: 100 px;
+   top: 600px;
+   border: 1px;
+}

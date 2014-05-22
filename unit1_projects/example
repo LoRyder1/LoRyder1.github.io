@@ -1,0 +1,25 @@
+<div class="container">
+
+        <div class="sidebar">
+            <div class="profile">
+                Profile Area
+            </div>
+
+            <ul class="list">
+                <li>List Item</li>
+                <li>List Item</li>
+                <li>List Item</li>
+                <li>List Item</li>
+                <li>List Item</li>
+            </ul>
+
+            <div class="foot">
+                Footer area
+            </div>
+        </div>
+
+        <div class="main"> 
+            Content Area
+        </div>
+
+    </div>
