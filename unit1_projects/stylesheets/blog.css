@@ -41,3 +41,15 @@ body {
 	font-size: 10;
 	color: green;
 	margin-top: 40px;
+
+#mainpics {
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	z-index: 5;
+}
+
+#mainpics img{
+	width: 75%;
+	height: 75%;
+}
