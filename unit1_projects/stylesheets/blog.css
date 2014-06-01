@@ -34,3 +34,10 @@ body {
 	margin: auto;
 	color: orange;
 }
+
+#clock{
+	float: left;
+	font-family: Times;
+	font-size: 10;
+	color: green;
+	margin-top: 40px;
