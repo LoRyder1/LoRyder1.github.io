@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lov's Blog</title>
+<link rel="stylesheet" type="text/css" href="./stylesheets/blog.css"/>
+</head>
+
+<body>
+<h1>
+<strong>Lov's DBC Blog</strong>
+</h1>
+
+<h2>
+<em>Week #5: </em>
+</h2>
+
+<h3> Instance Variable and Accessors in Ruby
+</h3>
+<p>	Instance variables are bound to an instance of a class and together form what we call the state of an object. In looking at this at every instance of a class there are a different set of instance variables. Instance variables are always prefixed by the @ symbol. Doing so makes the variable accesible across methods. 
+</p>
+<p>What is the difference between local and instance variables you ask? A local variable is only available inside the method it is defined. It is not shared across the entire object. You can say that the 'scope' of the local variable is only bound to the method where it is defined. 
+</p>
+<p>Comparing the scope of a local variable to an instance variable where the instance variables scope is bound to the specific instance of the class. By doing this, by binding to the entire object, an instance variable makes itself available to every method of the object. 
+</p>
+<p>
+</p>
+
+<h3>Accessors or attr_accessors
+</h3>
+<p>Life can be made a lot simpler by using the attr_accessor. The getter and setter methods function because an object can't exist in isolation. The object has to communicate its state to other objects at some point. Knowing that the object's own methods can access its instance variables you need to have getter methods where you can return the value of a particular instance variable. 
+</p>
+<p>attr_reader and attr_writer are used as getter and setters of objects. attr_reader defines the reader method for you, this is especially useful when you just want to return the value of the variable of the same name. Another mehod attr_writer defines a setter method that sets the value of the instance variable of the same name as the setter. The method attr_accessor will define both the getter and setter at the same time. 
+</p>
+<p>The whole reason for Ruby constraining access to instance variables through the getting and setting of variables is done on purpose. It ends up being better for the whole architecture of Ruby. attr_accessor should be used sparingly because it is left out for reason: only use them when you must. 
+</p>
+
+<h3>
+</h3>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+</body>
+</html>
