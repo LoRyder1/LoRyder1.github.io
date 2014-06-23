@@ -90,12 +90,22 @@ p{
 
 }*/
 
-#rightpics {
- 	width: 100%;
- 	height: auto;
+/*#rightpics {
+ 	width: 100px;
+ 	height: 100px;
  	right: 0;
  	float: right;
- }
+ }*/
+
+section.sidebar{
+position:relative;
+float:right;
+width:15%;
+padding:5px;
+margin: 10px 40px 0 0;
+height:auto;
+}
+
 
 
  /*#logo { position: relative; height: 100px; width: 200px; }
