@@ -1,11 +1,12 @@
-html{
+/*html{
 	background-color: grey;
 	
 	font-family: Times;
-}
+}*/
+
 #main{
 
-	background-image: url("../images/Fullmoon");
+	background-image: url("../images/Fullmoon.jpg");
 	background-color: #C0C0C0;	
 	background-size: cover;
 	background-position: top right;
@@ -97,7 +98,7 @@ font-family: 'Indie Flower', cursive;
 	width: 75%;
 	height: 75%;
 }
-	#mainbox{
+#mainbox{
 	width: 80%;
 	position: relative;
 	margin: auto;
