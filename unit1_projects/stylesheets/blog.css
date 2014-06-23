@@ -3,6 +3,17 @@ html{
 	
 	font-family: Times;
 }
+#main{
+
+	background-image: url("../images/Fullmoon");
+	background-color: #C0C0C0;	
+	background-size: cover;
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+
+
+
 
 
 h1 {
@@ -37,11 +48,12 @@ p{
 
 
 
-#main{
+/*#main{
 	width: 60%;
 	margin: auto;
 	color: orange;
-}
+}*/
+
 
 #clock{
 	float: left;
