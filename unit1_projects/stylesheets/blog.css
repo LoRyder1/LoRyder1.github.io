@@ -80,20 +80,20 @@ p{
 	height: 10%;
 }*/
 
-#rightpics {
+/*#rightpics {
 	position: relative;
     width: 10;
-    /*background-image: /* image url */
+    background-image: /* image url 
 
     right: 10;
     height: 100px; width: 200px; overflow: hidden;
 
-}
+}*/
 
 img.myimageclass {
  	width: 100px;
  	height: 100px;
- 	position: absolute; right: 0;
+ 	right: 0;
  }
 
  /*#logo { position: relative; height: 100px; width: 200px; }
