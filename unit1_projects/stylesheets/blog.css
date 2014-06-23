@@ -66,6 +66,7 @@ p{
 	font-size: 10;
 	color: green;
 	margin-top: 40px;
+}
 
 /*#mainpics {
 	position: absolute;
@@ -79,10 +80,10 @@ p{
 	height: 10%;
 }*/
 
-#rightpics{
-position: absolute;
+#rightpics {
+	position: absolute;
     width: 10;
-    background-image: /* image url */;
+    /*background-image: /* image url */
 
     left: 10;
 }
