@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lov's Blog</title>
+<link rel="stylesheet" type="text/css" href="./stylesheets/blog.css"/>
+</head>
+
+<body>
+<h1>
+<strong>Lov's DBC Blog</strong>
+</h1>
+
+<h2>
+<em>Week #7: </em>
+</h2>
+
+<h3>Explaining SQL injection
+</h3>
+<p> Essentially a SQL injection involves messing around with SQL statements in a web application by using user supplied data. What is important is to validate input and making sure the SQL statements in the web application to be made properly. 
+</p>
+<p>The number one threat to web applications is SQL injections. The Ramifications of successful SQL injection attacks can be huge. There are generally classified as either: Authentication Bypass, Information Disclosure, Compromised Data Integrity, Compromised Availability of Data, and Remote Command Execution
+</p>
+<p>SQL injection attacks can be detected adn potentially blocked at two different locations in app's traffic flow: in the app and in the network. 
+</p>
+<p>The main way to defend against SQL injection attacks is by validating user-supplied data, by whitelisting or blacklisting as well as constructing SQL statements so that when the user supplies data it doesn't mess with the logic of the statement i.e. parameterized queries. Input validation and sanitization should aslo contain alert functionality so that the administrator knows whats going on. Security can also be improved by leveraging technologies in the network i.e. intrusion prevention systems. --Cisco whitepaper
+</p>
+
+<h3>SQL vs NoSQL: Differences
+</h3>
+<p>SQL databases are called Relational Databases(RDBMS); whereas NoSQL database are primarily called as non-relational or distributed database. SQL is usually table based whereas NoSQL are usually document based, key-value pairs, graph databases or wide-column stores. So NoSQL has no standard schema that it needs to relate to. 
+</p>
+<p>SQL databases are vertically scalable and scalable by increasing horsepower of the hardware; while NoSQL are horizontally scalable and scaled using  more database servers. SQL uses SQL for manipulating data while NoSQL use something like UnQL (the syntax varies from database to database). SQL databases are not the best fit for hierarchical data storage. NoSQL databases fits better for hte hierarchical data storage as it follows the key-value pair way of storing data. This makes it highly preferred for large data set(i.e. big data). 
+</p>
+<p>For high transactional based applications: SQL databases are best fit for heavy duty transactional type applications, as it is more stable and promises the atomicity as well as integrity of the data. For properties: SQL databases emphasizes on ACID properties (Atomicity, Consistency, Isolation and DUrability) whereas the NoSQL database follows the Brewers CAP theorem (Consistency, Availability and Partition tolerance)--thegeekstuff
+</p>
+
+<h3>Optimizing SQL queries
+</h3>
+<p>Index your column, use the symbol operator, use the wildcard, use the NOT Operator, use the Count operator and or the Exist operator, Wildcard vs Substr, index the unique column, max and min operators, use data types, primary index, string index, limit the result, use default value, in subquery, utilize union instead of OR. 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+</body>
+</html>
