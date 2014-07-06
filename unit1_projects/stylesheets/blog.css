@@ -142,7 +142,7 @@ font-family: 'Indie Flower', cursive;
 }*/
 #mainbox{
 	width: 80%;
-	position: relative;
+	float left;
 	margin: auto;
 	padding: 30px;
 	margin-top: 3%;
@@ -152,7 +152,7 @@ font-family: 'Indie Flower', cursive;
 
 #mainbox2{
 	width: 80%;
-	position: right;
+	float right;
 	margin: auto;
 	padding: 30px;
 	margin-top: 3%;
