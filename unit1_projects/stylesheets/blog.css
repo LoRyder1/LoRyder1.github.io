@@ -141,6 +141,8 @@ font-family: 'Indie Flower', cursive;
 	height: 75%;
 }*/
 #mainbox{
+	display: inline;
+	position: relative;
 	width: 80%;
 	float left;
 	margin: auto;
@@ -151,6 +153,8 @@ font-family: 'Indie Flower', cursive;
 }
 
 #mainbox2{
+	display: inline;
+	position: relative;
 	width: 80%;
 	float right;
 	margin: auto;
