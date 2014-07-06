@@ -103,11 +103,11 @@ p{
 
 section.sidebar{
 position:relative;
-float:right;
+float:bottom;
 width:15%;
 padding:5px;
 margin: 10px 40px 0 0;
-height:auto;
+height:10%;
 }
 
 
