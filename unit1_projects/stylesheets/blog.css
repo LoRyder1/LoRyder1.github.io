@@ -4,6 +4,8 @@
 	font-family: Times;
 }*/
 
+
+/*
 #main{
 
 	background-image: url("images2/Fullmoon.jpg");
@@ -11,7 +13,7 @@
 	background-size: cover;
 	background-position: top right;
 	background-repeat: no-repeat;
-}
+}*/
 
 .wrapper{
 	width:70%;
@@ -147,7 +149,7 @@ font-family: 'Indie Flower', cursive;
 }
 
 #content{
-	width: 100%;
+	width: 20%;
 	margin-bottom: 10px;
 	margin-top: 10px;
 	background-color: #46ADCC;
