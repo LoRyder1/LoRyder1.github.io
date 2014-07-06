@@ -150,6 +150,16 @@ font-family: 'Indie Flower', cursive;
 	text-align: center;
 }
 
+#mainbox2{
+	width: 80%;
+	position: right;
+	margin: auto;
+	padding: 30px;
+	margin-top: 3%;
+	z-index: 10;
+	text-align: center;
+}
+
 #content{
 	width: 20%;
 	margin-bottom: 10px;
