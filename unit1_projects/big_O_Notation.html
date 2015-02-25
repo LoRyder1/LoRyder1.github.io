@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lov's Blog</title>
+<link rel="stylesheet" type="text/css" href="./stylesheets/blog.css"/>
+</head>
+
+<body>
+<h1>
+<strong>Lov's DBC Blog</strong>
+</h1>
+
+<h2>
+<em>Big O Notation </em>
+</h2>
+
+
+<p>Describes behavior with a set of formulas - the speed of algorithms. It can be thought of as a rating system and is mostly used when big amounts of data are involved like database systems. The notation always assumes the worst case scenario and execution could be faster under good circumstances (e.g. on early returns).
+</p>
+<p>Big O essentially characterizes functions according to their growth rates: different functions with the same growth rate may be represented using the same O notation. A description of a funciton in terms of Big O notation usually provides an upper bound on the growth rate of the function
+</p>
+
+<h3>O(1) - Order of 1</h3>
+<hr>
+<p>Algorithms with O(1) will always execute in the same time, the size of the dataset will not influence the execution time at all. <b>Ex: Basic Array(indexing), Hash</b>
+</p>
+
+<h3>O(N) - Order of N</h3>
+<hr>
+<p>O(N) says the algorithm will take a linear time range. So if the time is 1/500 sec. for 1 item, it will take 1 sec. for 500 items. <b>Ex: .each method, linear search(brute force), Basic Array(search), Hash Table(search)</b>
+</p>
+
+<h3>O(N^2) - Order of N^2</h3>
+<hr>
+<p>O(N^2) means the function will perform proportionally to the square of the input data size. This is usually happens when nested loops are running over the input data performing some tasks on it. A common example of this is bubblesort, which uses two loops that iterate over the dataset. Very inefficient = nested loops. <b>Ex: Quicksort, Bubblesort, Insertion Sort, Select Sort</b>
+</p>
+<p><b>What is a bubble sort?</b> A bubble sort is sometimes referred to as a sinking sort, is a simple sorting algorithm that goes through the list to be sorted repeatedly. A bubble sort works by comparing each pair of adjacent items and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted. A bubble sort is a comparison sort.
+</p>
+
+<h3>O(2^N)</h3>
+<hr>
+<p>On O(2^N) algorithms execution time will double with each new element. These get very fast very quickly. </p>
+
+<h3>O(log N) - Order of log N</h3>
+<hr>
+<p>The efficiency curve of this type of algorithm starts pretty steep but flattens more and more on higher values. O(log N) functions are very effective on large datasets. Also called linearithmic time because the function grows faster than a linear function but slower than any polynomial.<b>Ex: Binary Search, Mergesort, Heapsort, indexing or searching a B-tree</b> </p>
+
+<h3>divide and conquer (D&C)</h3>
+<p>works by recursively breaking down a problem into two or more sub-problems of the same (or related) type, until it becomes simple enough to be solved directly. <b>Ex: quicksort, merge sort</b></p>
+</body>
+</html>
+
+
+
+
