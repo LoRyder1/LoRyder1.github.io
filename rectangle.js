@@ -72,7 +72,17 @@
 				y: 200
 			}, 
 			color: '#0000ff'
+		}),
+		new Rectangle({
+			width: 450,
+			height: 450,
+			position: {
+				x: 600,
+				y: 250
+			},
+			color: '#ff00ff'
 		})
+
 	];
 
 	_(models).each(function (model) {
