@@ -81,6 +81,15 @@
 				y: 250
 			},
 			color: '#ff00ff'
+		}),
+		new Rectangle({
+			width: 375,
+			height: 375,
+			position: {
+				x: 700,
+				y: 350
+			},
+			color: '#ffff00'
 		})
 
 	];
