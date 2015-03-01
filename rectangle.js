@@ -90,6 +90,15 @@
 				y: 350
 			},
 			color: '#ffff00'
+		}),
+		new Rectangle({
+			width: 200,
+			height: 200,
+			position: {
+				x: 800,
+				y: 500
+			},
+			color: '#00ffff'
 		})
 
 	];
