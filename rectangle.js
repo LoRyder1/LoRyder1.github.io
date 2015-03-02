@@ -99,6 +99,24 @@
 				y: 500
 			},
 			color: '#00ffff'
+		}),
+		new Rectangle({
+			width: 100,
+			height: 100,
+			position: {
+				x: 900,
+				y: 100
+			},
+			color: '#ffffff'
+		}),
+		new Rectangle({
+			width: 150,
+			height: 150,
+			position: {
+				x: 1000,
+				y: 100
+			},
+			color: '#000000'
 		})
 
 	];
