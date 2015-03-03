@@ -15,3 +15,4 @@ Pros- fast, highly interactive, scalable
 
 Cons- cannot be indexed by searched engines, client-side applications are hard to test, security issues
 
+Backbone.js - gets things done. 
