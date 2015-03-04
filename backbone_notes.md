@@ -38,3 +38,21 @@ Backbone Models don't store their data directly as properties ont the object whi
 
 jsFiddle Backbone Environment - jsFiddle is an online environment for experimenting with html, javascript and css
 
+Summary - 
+1. Web applications are becoming more interactive
+2. Developing web applications with client-side state is hard - and the tools are relatively immature. 
+3. Backbone is a library that helps organize client-side applications - it is not a framework (and it's not mvc!)
+
+The Purpose of Models: 
+- Models form the core of your app
+- They contain you app's state as well as logic and behavior
+- Models are the singl point of truth for data
+- Models provide a lifecycle
+- They communicate changes to the rest of the application via events
+
+Defining New Model Types: 
+- Create new Model 'types' by extending Backbon.Model
+
+
+
+
