@@ -50,70 +50,70 @@
 			width: 100, 
 			height: 60, 
 			position: {
-				x: 300,
-				y: 150
+				x: 330,
+				y: 110
 			}, 
 			color: '#ff0000'
 		}),
 		new Rectangle({
-			width: 26, 
-			height: 300, 
+			width: 100, 
+			height: 80, 
 			position: {
 				x: 500,
-				y: 75
+				y: 110
 			}, 
 			color: '#00ff00'
 		}),
 		new Rectangle({
-			width: 300, 
-			height: 70, 
+			width: 100, 
+			height: 60, 
 			position: {
-				x: 310,
-				y: 200
+				x: 390,
+				y: 160
 			}, 
 			color: '#0000ff'
 		}),
 		new Rectangle({
-			width: 450,
-			height: 450,
+			width: 100,
+			height: 60,
 			position: {
 				x: 600,
-				y: 250
+				y: 100
 			},
 			color: '#ff00ff'
 		}),
 		new Rectangle({
-			width: 375,
-			height: 375,
+			width: 100,
+			height: 60,
 			position: {
 				x: 700,
-				y: 350
+				y: 140
 			},
 			color: '#ffff00'
 		}),
 		new Rectangle({
-			width: 200,
-			height: 200,
+			width: 100,
+			height: 60,
 			position: {
 				x: 800,
-				y: 500
+				y: 160
 			},
 			color: '#00ffff'
 		}),
 		new Rectangle({
 			width: 100,
-			height: 100,
+			height: 60,
 			position: {
-				x: 900,
+				x: 850,
 				y: 100
 			},
 			color: '#ffffff'
 		}),
 		new Rectangle({
-			width: 150,
-			height: 150,
+			width: 100,
+			height: 60,
 			position: {
-				x: 1000,
+				x: 1005,
 				y: 100
 			},
 			color: '#000000'
