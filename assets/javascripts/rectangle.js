@@ -51,7 +51,7 @@
 			height: 60, 
 			position: {
 				x: 330,
-				y: 110
+				y: 90
 			}, 
 			color: '#ff0000'
 		}),
@@ -60,7 +60,7 @@
 			height: 80, 
 			position: {
 				x: 500,
-				y: 110
+				y: 90
 			}, 
 			color: '#00ff00'
 		}),
@@ -69,7 +69,7 @@
 			height: 60, 
 			position: {
 				x: 390,
-				y: 160
+				y: 140
 			}, 
 			color: '#0000ff'
 		}),
@@ -78,7 +78,7 @@
 			height: 60,
 			position: {
 				x: 600,
-				y: 100
+				y: 80
 			},
 			color: '#ff00ff'
 		}),
@@ -87,7 +87,7 @@
 			height: 60,
 			position: {
 				x: 700,
-				y: 140
+				y: 120
 			},
 			color: '#ffff00'
 		}),
@@ -96,7 +96,7 @@
 			height: 60,
 			position: {
 				x: 800,
-				y: 160
+				y: 140
 			},
 			color: '#00ffff'
 		}),
@@ -105,7 +105,7 @@
 			height: 60,
 			position: {
 				x: 850,
-				y: 100
+				y: 80
 			},
 			color: '#ffffff'
 		}),
@@ -114,7 +114,7 @@
 			height: 60,
 			position: {
 				x: 1005,
-				y: 100
+				y: 80
 			},
 			color: '#000000'
 		})
