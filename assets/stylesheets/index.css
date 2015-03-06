@@ -103,7 +103,7 @@ body {
 #content{
 	margin: 20px auto;
   width: 800px;
-  height: 550px;
+  height: 400px;
   padding: 0px 20px 20px 20px;
 	margin-bottom: 10px;
 	margin-top: 2%;
@@ -118,32 +118,28 @@ body {
 	text-align: center;
 }
 
-
-#navbar {
-  position: fixed;
-  z-index: 1;
-  width: 98.5%;
-  background-color: #FFFFFF;
- 	border: 3px solid #000;
-  background: -webkit-linear-gradient(#46ADCC, #ddd);
+#content0{
+	margin: 20px auto;
+  width: 800px;
+  height: 500px;
+  padding: 0px 20px 20px 20px;
+	margin-bottom: 10px;
+	margin-top: 2%;
+	background-color: #46ADCC;
+	border: 3px solid #000;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: -webkit-linear-gradient(#46ADCC, #ddd);
 	background: -o-linear-gradient(#46ADCC, #ddd);
 	background: -moz-linear-gradient(#46ADCC, #ddd);
 	background: linear-gradient(#46ADCC, #ddd);
+	text-align: center;
+
 }
 
-#navbar p{
-	display: inline-block;
-	float: left;
-	padding-left: 4em;
-	font-size: 150%;
-}
-
-#navbar li{
-	display: inline-block;
-	float: right;
-	padding-right: 4em;
-	font-size: 110%;
-}
+#content0 li img{ width: 100px; height:100px; cursor:pointer;}
+#content0 li { float:left;}
+#content0 img.selected{ border:1px solid black;}
 
 #side1 {
 	float: left;
@@ -159,15 +155,7 @@ body {
 }
 
 
-/*#footer {
-  background: #c00 url("../images/redbg.png");
-  text-align: right;
-  z-index: 1;
-  
-  height: 40px;
-  background-color: #FFFFFF;
- 	border: 3px solid #000;
-}*/
+
 
 #footer {
   background: #c00 url("../images/redbg.png");
