@@ -6,6 +6,8 @@
 .rectangle {
 	position: absolute;
 	border: 4px solid black;
+	border-radius: 8px 8px 8px 8px;
+
 }
 
 body {
@@ -95,6 +97,7 @@ body {
 	background: -moz-linear-gradient(#46ADCC, #ddd);
 	background: linear-gradient(#46ADCC, #ddd);
 	text-align: center;
+
 }
 
 #content{
