@@ -53,6 +53,11 @@ The Purpose of Models:
 Defining New Model Types: 
 - Create new Model 'types' by extending Backbon.Model
 
+Model Inheritance
+- models can inherit from other models
+var Vehicle = Backbone.Model.extend({});
+var Car = Vehicle.extend({});
+
 
 
 
