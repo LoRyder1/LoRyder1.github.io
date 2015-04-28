@@ -58,6 +58,20 @@ Model Inheritance
 var Vehicle = Backbone.Model.extend({});
 var Car = Vehicle.extend({});
 
+Working with Model Attributes
+- attributes can be set by passing an object to a model type's constructor, or by using the 'set' method
+var ford = new Vehicle();
+ford.set('type', 'car');
+-read attributes with the 'get' method
+ford.get('type')
+-escape is like 'get' except that the output is html escaped
+- has method checks to see if attribute has already been set
+
+Model Events
+- models raise events when their state changes
+- to detect a chang to a model listen for the 'change' event
+ford.on('change', function () {});
+ford.on('change:color', function (){});
 
 
 
