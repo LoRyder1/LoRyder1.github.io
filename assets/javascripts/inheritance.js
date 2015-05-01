@@ -153,13 +153,96 @@ var search_view = new SearchView({ el: $("#search_container") });
 
 // CDN - content delivery network
 
+// Listening for events
+
+SearchView = Backbone.View.extend({
+	initialize: function(){
+		this.render();
+	},
+	render: function(){
+		var template = _.template( $("#search_template").html(), {} );
+		this.$el.html( template );
+	},
+	events: {
+		"click input[type=button]": "doSearch"
+	},
+	doSearch: function( event ){
+		// Button clicked, you can access the element that was clickeed with event.currentTarget
+		alert( "Search for " + $("#search_input").val() );
+	}
+});
+
+var search_view = new SearchView({ el: $("#search_container") });
 
 
+// Using template variables
 
+SearchView = Backbone.View.extend({
+	initialize: function(){
+		this.render();
+	},
+	render: function(){
+		var variables = { search_label: "My Search" };
 
+		var template = _.template( $("#search_template").html(), variables );
 
+		this.$el.html( template );
+	}, 
+	events: {
+		"click input[type=button]": "doSearch"
+	},
+	doSearch: function( event ){
+		aler( "Search for " + $("#search_input").val() );
+	}
+});
 
+var search_view = new SearchView({ el: $("#search_container") });
 
+// Models ar the heart of any JavaScript application, containing the interactive data as well as a large part of the logic surrounding it: conversions, validations, computed properties, and access conrol.
+
+// Backbone views are used to reflect what your applications data models look like. They are also used to listen to events and react accordingly. 
+
+// Backbone routers are used for routing your applications URLs when using hash tags. Defined routers should always contain at least one route and a function to map the particular route to. 
+
+// Backbone collections are simply an ordered set of models. Such as-> Model: Student, Collection: ClassStudents. Model: Todo Item, Collection: Todo List. Model: Animal, Collection: Zoo. Also Model: Student, Collection: Gym Class 
+
+var AppRouter = Backbone.Router.extend({
+	routes: {
+		"posts/:id": "getPost",
+		"*actions": "defaultRoute"
+	}
+});
+
+var app_router = new AppRouter;
+
+routes : {
+	"posts/:id": "getPost",
+	"download/*path": "downloadFile",
+	":route/:action": "loadView",
+},
+app_router.on('route:getPost', function (id) {
+	alert( id );
+});
+app_router.on('route:downloadFile', function ( path ){
+	alert(path);
+});
+// app_router.on('route:defaultRoute', function(actions) {
+// 	alert(actions);
+// });
+app_router.on('route:loadView', function( route, action ){
+	alert(route + "_" + aciton);
+});
+Backbone.history.start();
+
+var Song = Backbone.Model.extend({
+	initialize: function(){
+		console.log("Music is the answer");
+	}
+});
+
+var Album = Backbone.Collection.extend({
+	model: Song
+});
 
 
 
