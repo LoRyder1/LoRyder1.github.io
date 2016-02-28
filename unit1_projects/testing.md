@@ -21,6 +21,7 @@ A) Private methods that are rightfully private and do not need to be tested
 B) Private methods that should be public so that they can be tested explicitly
 
 One way of testing out private methods is to mock out the call, but the downside is that mocking out the call to a private mehtod, we're bypassing all of the following code, leaving it untested. 
+Sometimes in theses cases they aren't just implementation details and can be ignored. In these situations, typically som redesign is necessary. 
 
 
 
