@@ -67,6 +67,16 @@
     - only the highest priority tasks are addressed
     - programmers accept responsiblity for estimating adn completeing their own work, encourage human contact among the team
 
+**Development Episode**
+
+  Day-to-day programming proceeds from a task clearly connected to a feature teh customer wants, to tests, to implementation, to design, and through to integration. 
+
+  XP development cycle:
+    - pairs of programmers program together
+    - development is driven by tests, You test first, then code. Until all the tests run, you aren't done.
+    - pairs don't just make test cases run. They also evolve the design of the system. Changes aren't restricted to any particular area. Pairs add value to the analysis, design, implementation, and testing of the system. They add that value wherever the system needs it. 
+    - integration immediately follows development, including integration testing. 
+
 
 
 
