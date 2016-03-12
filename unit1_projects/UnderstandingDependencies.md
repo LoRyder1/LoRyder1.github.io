@@ -9,4 +9,28 @@
   - It is also possible to describe or characterize dependencies as "strong" or "weak". A tight coupling leads to strong dependencies, and a loose coupling leads to weak dependencies, or even no dependencies in some situations. 
   - Dependencies or couplings, are directional. When A depends on B doesn't mean that B also depends on A.
 
-  
+  **Why are Dependencies Bad?**
+
+  Dependencies are bad because they decrease reuse. Decreased reuse is bad for many reasons. A lot of times reusing methods, classes can have a positive impact on development speed, code quality, code readability.
+
+  **Dependency Types**
+
+  A dependency isn't just a dependency. There are several types of dependencies. Each type leads to more or less flexibility in the code. 
+    - Class Dependencies
+    - Interface Dependencies
+    - Method / Field Dependencies
+
+  Class dependencies are dependencies on classes
+  Interface dependencies are dependencies on interfaces
+  Method or field dependencies are dependencies on concrete methods or fields of an object. 
+
+  **Local and Context Dependecies**
+
+  When developing applications it is normal to break the application into minor components. Some of these components are general purpose components, which could be useful in other applications too. Other components are applications specific and are not of any use out of the application. 
+
+  - any classes bleonging to the API are "local". The rest of the application is the "context". If a general purpose component depends on application specific classes, this is called a "context dependency". Context dependencies are bad because it makes the the general purpose component unusable outside of the application too. 
+  - Creating context dependencies are often created to try to simplify the design of the application. 
+
+
+
+
