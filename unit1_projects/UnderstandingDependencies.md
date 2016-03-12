@@ -57,6 +57,10 @@
 
   Coupling refers to the interdependencies between modules, while cohesion describes how related are the functions within a single module. Low cohesion implies that a given module performs tasks which are not very related to each other and hence can create problems as the module becomes large.
 
+**Dependency Hell**
+
+ - dependency hell = frustration of software users who have installed software packages which have dependencies on specific versions of other software packages. The dependency issue arises around shared packages/libraries on wich several other packages have dependencies but where they depend on different and incompatible version of the shared packages. 
+
 
 
 
