@@ -47,7 +47,11 @@
   - reliance on oral communication, tests, and source code to communicate system structure and intent
   - reliance on evolutionary design process that lasts as long as the system lasts.
   - reliance on the close collaboration of programmers with oridinary skills
-  - reliance on practices that work with both the short term instincts of programmers and the long-term interests of the project. 
+  - reliance on practices that work with both the short term instincts of programmers and the long-term interests of the project.
+
+  XP is the answer to the question "How would you program if you had enough time?" 
+    - if you had enough time then you would write tests; you would restructure the system when you learned something; you would talk a lot with fellow programmers and with the customer.
+    - the mentality of sufficiency is also good business. It creates its own efficiencies, just as the mentaliy of scarcity creates its own waste. 
 
 
 
