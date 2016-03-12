@@ -53,6 +53,20 @@
     - if you had enough time then you would write tests; you would restructure the system when you learned something; you would talk a lot with fellow programmers and with the customer.
     - the mentality of sufficiency is also good business. It creates its own efficiencies, just as the mentaliy of scarcity creates its own waste. 
 
+**The Basic Problem: Risk**
+
+  -schedule slips, project cancelled, system goes sour, defect rate, business misunderstood, business changes, false feature rich, staff turnover
+
+  Solution
+    - short release cycles
+    - minimum vialbe product
+    - create and maintain comprehensive suite tests
+    - programmers test function by function and customers test program feature by feature
+    - customer must be integral part of team
+    - shorten release cycle
+    - only the highest priority tasks are addressed
+    - programmers accept responsiblity for estimating adn completeing their own work, encourage human contact among the team
+
 
 
 
