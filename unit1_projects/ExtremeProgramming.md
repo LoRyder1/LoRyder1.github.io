@@ -77,6 +77,24 @@
     - pairs don't just make test cases run. They also evolve the design of the system. Changes aren't restricted to any particular area. Pairs add value to the analysis, design, implementation, and testing of the system. They add that value wherever the system needs it. 
     - integration immediately follows development, including integration testing. 
 
+** Economics of Software Development**
+
+  Need to make software development economically more valuable by spending money more slowly, earning revenue more quickly, and increasing the probable productive lifespan of our project. Most of all need to increase the options for business decisions. 
+
+  Calculating the worth of options
+    - ...
+    - the uncertainty in the eventual value of the prize
+
+    Create a project management strategy that maximizes the value of the project analyzed
+      - accurate and frequent feedback about progress
+      - many opportunities to dramatically change the requirements
+      - a smaller initial investment
+      - the opportunity to go faster
+  
+    The greater the uncertainty, the more valuable the strategy will become. 
+
+    eliminate downside risk - there is a cost to implementing a feature and it may be more expensive to do it now rather than wait. The value is uncertain and its value could be zilch.
+    
 
 
 
