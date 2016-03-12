@@ -71,6 +71,17 @@
   
   High cohesion is associated with loose coupling. It comes down to finding a balance and finding the characteristics of "good" programming practices that reduce maintenance and modification costs. 
 
+  If a method that serve a class tend to be similar in many aspects, then the class is said to have high cohesion. In a highly cohesive system, code readability is increased, while complexity is kept manageable. 
+
+  Cohesion is increased if:
+    - the functionalities embedded in a class, accessed through its methods, have much in common. 
+    - methods carry out a small number of related activities, by avoiding coarsely grained or unrelated sets of data. 
+
+  Advantages of high cohesion:
+    - reduced module complexity
+    - increased system maintability, because logical changes in the domain affect fewer modules, and because changes in one module require fewer changes in other modules. 
+    - increased module reusability, because application developers will find the component they need more easily among the cohesive set of operations provided by the module. 
+
 
 
 
