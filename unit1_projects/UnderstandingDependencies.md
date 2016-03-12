@@ -37,6 +37,27 @@
 
   Try to avoid unnecessarily extensive dependencies. Keep in mind though, that unnecessarily extensive dependencies often occur when you group multiple parameters into a class. This is a common refactoring that makes the code simpler, but can cause unecessarily extensive dependencies. 
 
+**Coupling aka (Dependencies)**
+
+  - *coupling* can be described as the manner and degree of *interdependence* between software modules; a measure of how closely connected two routines or modules are; the strength of the *relationships* between modules.
+
+  - coupling is usually contrasted with *cohesion*. Low coupling often correlates with high cohesion. Low coupling is often a sign of a *well-structured* computer system and a *good design*, and when combined with high cohesion, supports the general goals of high *readablity* and *maintainability*.
+
+  *Tight Coupling* = more interdepency, more coordination, mor information flow.
+  *Loose Coupling* = less interdepency, less coordinatio, less information flow.
+
+  **Disadvantages**
+
+  Tightly coupled systems
+  1. A change in one module usually forces a ripple effect of changes in other modules.
+  2. Assembly of modules might require more effort and/or time due to the increased inter-module dependency. 
+  3. A particular module might be harder to reuse and/or test because dependent modules must be included. 
+
+  **Coupling versus cohesion**
+
+  Coupling refers to the interdependencies between modules, while cohesion describes how related are the functions within a single module. Low cohesion implies that a given module performs tasks which are not very related to each other and hence can create problems as the module becomes large.
+
+
 
 
 
