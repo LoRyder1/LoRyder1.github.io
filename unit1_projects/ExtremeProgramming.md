@@ -94,7 +94,21 @@
     The greater the uncertainty, the more valuable the strategy will become. 
 
     eliminate downside risk - there is a cost to implementing a feature and it may be more expensive to do it now rather than wait. The value is uncertain and its value could be zilch.
-    
+
+** Four Variables **
+
+  We will control four variables in our projects - cost, time, quality, and scope. Of these, scope provides us the most valuable form of control. 
+    - Cost
+    - Time
+    - Quality 
+    - Scope
+  The way the software dev game is played is that external forces get to pick the values of any three of the variables. The dev team gets to pick the resultant value of the fourth variable. 
+  
+  The solution is to make the four variables visible. If everyone can see all four variables, they can consciously choose which variables to control. 
+
+  Quality - by insisting on better quality you can get projects done sooner, or you can get more done in a given amount of time. There is a dichotomy between internal quality and external quality. Sacrificing internal quality is a short term play. 
+
+  There is a human effect from quality. Everybody wants to a good job, and they work much better if they feel they are doing good work. If you deliberately downgrade quality, your team might go faster at first, but soon the demoralization of producing crap will overwhelm any gains you temporarily made from not testing, or not reviewing, or not sticking to standards. 
 
 
 
