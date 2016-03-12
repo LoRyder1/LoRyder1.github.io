@@ -36,6 +36,19 @@
 
     Promises - reduced project risk, improve responsiveness to business changes, improve productivity throughout the life of a system, and add fun to building software in teams-all at the same time.
 
+**What is XP?**
+
+  XP is a lightweight, efficient, low-risk, flexible, predictable, scientific, and fun way to develop software. 
+
+  - early, concrete, and continuing feedback from short cycles
+  - incremental planning approach, expected to evolve over the life of the project.
+  - flexibly schedule implementation of functionality
+  - reliance on automated tests to catch defects early
+  - reliance on oral communication, tests, and source code to communicate system structure and intent
+  - reliance on evolutionary design process that lasts as long as the system lasts.
+  - reliance on the close collaboration of programmers with oridinary skills
+  - reliance on practices that work with both the short term instincts of programmers and the long-term interests of the project. 
+
 
 
 
