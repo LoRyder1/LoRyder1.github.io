@@ -17,3 +17,25 @@
   - develop infrastructure and frameworks as you develop your application, not up-front--delivering business value is *heartbeat* that drives XP projects.
   - don't write and maintain implementation documentation--communication in XP projects occurs face-to-face, or through efficient tests and carefully written code. 
 
+**Preface**
+
+  XP takes commonsense principles and practices to extreme levels.
+
+  - if *code reviews* are good, do it all the time
+  - if *testing* is good, everybody will test all the time
+  - if *design* is good, we'll make it part of everybody's daily business(refactoring).
+  - if *simplicity* is good, always implement the simplest thing that could possibly work.
+  - if *architecture* is important, everybody will work defining and refining the architecture all the time.
+  - if *integration* testing is important, then we'll integrate and test several times a day (continuous integration).
+  - if short iterations are good, we'll make the iterations really really short - seconds and minutes and hours, not weeks and months and years. 
+
+  *XP makes two sets of promises*
+
+    - XP promises that they will be able to work on things that really matter, every day. They won't have to face scary situations alone. They will be able to do everyhing in their power to make their system successful. They will make decisions that they can make best, and they won't make decisions they aren't best qualified to make. 
+    - To customer and managers, XP promises that they will get the most possible value out of every programming week. Every few weeks they will be able ot see concrete progress on goals they care about. They will be able to change the direcion of the project in the middle of development without incurring exorbitant costs. 
+
+    Promises - reduced project risk, improve responsiveness to business changes, improve productivity throughout the life of a system, and add fun to building software in teams-all at the same time.
+
+
+
+
