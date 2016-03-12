@@ -63,6 +63,14 @@
 
  - *efferent coupling* is a metric that measures the number of data types a class knows about. A large efferent coupling can indicate that a class is unfocused. It may also indicate brittleness, since it depends on the stability of all the types to which it is coupled. 
 
+**Cohesion**
+
+  cohesion refers to the degree to which the elements of a module belong together. So, cohesion measures the strength of a relationship between the functionality within a given module. 
+
+  Modules with high cohesion tend to be preferable because high cohesion is associated with *robustness*, *reliability*, *reusability*, and *understandability*. Low cohesion is usually associated with undesirable traits such as being difficult to maintain, test, reuse, or even understand. 
+  
+  High cohesion is associated with loose coupling. It comes down to finding a balance and finding the characteristics of "good" programming practices that reduce maintenance and modification costs. 
+
 
 
 
