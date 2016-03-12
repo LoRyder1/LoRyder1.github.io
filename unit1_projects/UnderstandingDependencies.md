@@ -61,6 +61,8 @@
 
  - dependency hell = frustration of software users who have installed software packages which have dependencies on specific versions of other software packages. The dependency issue arises around shared packages/libraries on wich several other packages have dependencies but where they depend on different and incompatible version of the shared packages. 
 
+ - *efferent coupling* is a metric that measures the number of data types a class knows about. A large efferent coupling can indicate that a class is unfocused. It may also indicate brittleness, since it depends on the stability of all the types to which it is coupled. 
+
 
 
 
