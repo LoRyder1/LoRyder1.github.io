@@ -367,7 +367,38 @@
       2. accepted responsibility - responsibility can only be accepted not given.
       3. person responsible for implementation gets to estimate
       4. ignore dependencies between parts
-      5. plan for priorties vs planning for development
+      5. planning for priorties vs planning for development
+
+  *The Planning Game*
+
+    - the best environment is one of mutual trust, each party respects the other, each party believes that the other has their best interest at heart. Each party is willing to let the other do their job, joining the skills, experience and perspective of both. 
+
+  *The Goal* - maximize the value of the software produced
+
+  *The Strategy* - invest as little as possible to put the most valuable functionality into production as quickly as possible.
+
+  *The Players* - if they are smart they will support their decisions by referring to 
+    - real users of the product
+    - focus groups
+    - salespeople
+
+  *The Moves*
+    - three phases 
+      1. exploration
+      2. commitment
+      3. steer
+
+  *Iteration Planning*
+    gives the customer the capability of steering development every three weeks. Within an iteration, the development team applies nearly the same rules to plan their activities. 
+
+  *Constraints on Iteration Planning*
+    - don't plan too much, reality will never consent to match the plan exactly
+    - you want rapid feedback
+    - individuals responsible for delivering something must also be responsible for estimating it. 
+    - limit the scope of development to what is really needed. 
+    - you want a process that doesn't generate too much pressure that people do things that turn out to be stupid.
+
+  
 
 
 
