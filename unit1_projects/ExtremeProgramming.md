@@ -443,10 +443,133 @@
 
     Another important component is that some of the practices would not work without it. Under stress, people revert. They will skip writing tests, they will put off refactoring, they will avoid integrating. With a partner watching your partner won't let you skip. The chances of ignoring your commitment to the rest of the team is much smaller in pairs than it is when you are working alone. 
 
-    The conversational nature of pair programming also enhances the software development process. You quickly learn to talk at many different levels, comparing and contrasting, talking about experiences, the practices you are using and how they can be made better.     
+    The conversational nature of pair programming also enhances the software development process. You quickly learn to talk at many different levels, comparing and contrasting, talking about experiences, the practices you are using and how they can be made better. 
 
+**Design Strategy**
+  
+  We will continually refine the design of the system, starting from a very simple beginning. We will remove any flexibility that doesn't prove useful. 
 
+  *The simplest thing that could possibly work*
 
+    1. communication - a complicated design is harder to communicate than a simple one. Come up with communicative designs
+    2. simplicity - we should have a design strategy that will produce simple designs, but the strategy itself should be simple. Good design is never easy. But th expression of it should be. 
+    3. Feedback - hard to know when you are right or wrong
+    4. Courage - stopping after a little bit of design. 
+
+    - create a design strategy that results in a design that is simple
+    - quickly find a way to verify its quality
+    - feed back what we learn into the design
+    - crank the cycle time for this whole process down as short as possible
+
+    The principles also work into the design strategy
+
+     - small initial investment
+     - assume simplicity 
+     - incremental change
+     - travle light - design strategy shoul produce no "extra" design
+
+     As programmers, we get in the habit of anticipating problems. When they appear later, we're happy. 
+
+     The common answer for the question, "When do you add more design?" A common answer is that you should design for tomorrow. 
+
+      - This works if nothing changes between now and later and you know exactly what is going to happen, and you know exactly how to solve it, it is generally better to add what you need now, and add what you need later, too. 
+
+    The problem with this strategy is uncertainty
+
+      - sometimes tomorrow never comes (that is, the feature you designed ahead for is taken off your plate by the customer). 
+      - sometimes you learn a better way to work between now and later. 
+
+    You need to focus on designing for today's problems today, and tomorrow's problems tomorrow. 
+
+    Design in a very simple way the first time you encounter it, the second time you use it make it more general. The first use only pays what it must. The second use pays for flexibility. This way you never pay for flexibility you don't use, and you tend to make the system flexible where it needs to be. 
+
+  *How Does "Designing Through Refactoring" Work?*
+
+    - when faced with a big refactoring, you have to take it in small steps (incremental change again).
+    - design is not drawing a bunch of pictures and then implementing the system to conform to the pictures. 
+      - that would be pointing the car, learning to drive points the way to a different style of design-get the car started, then point it a little this way, then a little that way, then this way again.
+
+  *What is the Simplest?*
+
+    the best design is the simplest design that runs all the test cases. But what do we mean by the simplest?
+
+    Is the simplest design the one with the fewest classes? this would lead to objects that were too big to be effective. Is the simplest design the one with the fewest methods? This would lead to big methods and duplication. Is the simplest design teh one with the fewest lines of code? This would lead to compression for compression's sake and a loss of communication. 
+
+    The simplest-four constraints
+    1. the system(code and test together) must communicate everything you want to communicate
+    2. The system must contain no duplicate code.
+    3. The system should have the fewest posssible classes
+    4. The system should have the fewest possible methods
+
+    Purpose
+
+      - the purpose of the design is first and foremost to communicate the intent of the programmers and, second, to provide a place for the logic of the system to live. 
+
+      - if the design is viewed as a communication medium, then you will have objects or methods for every important concept. You will choose the names of classs and methods to work together. 
+
+      - must find a way to eliminate all duplicate logic in the system
+
+      - delete everything that doesn't have a purpose - either a communication purpose or a computational purpose. What you are left with is the simplest design that coul possibly work. 
+
+  *How could this Work?*
+
+    The traditional strategy for reducing the cost of software over time is to reduce the probability and cost of rework. XP takes the opposite tack. XP revels in rework. A day without refactoring is like a day witout sunshine. 
+
+    - The idea is that risk is money just as much as time is money. If there is enough uncertainty, the value of the option of waiting is high enough that you would be better off waiting. 
+
+    Design isn't free. Another aspect of this situation is that when you put more design in today, you increase the overhead of the system. There is more to test, more to understand, more to explain. Every day you don't just pay interest on the money you spent, you also pay a little design tax. The difference in today's investment and tomorrow's investment can be much greater and it is still a good idea to design tomorrow for tomorrow's problems. 
+
+    The cost of making a design decision today is the cost of making the decision plus the interest we pay on that money plus the inertia it adds to the system. The benefit of making a design decision today is the expected value of the decision being profitably used in the future. 
+
+    If the cost of today's decision is high, and the probability of tis beign right is low, and the probability of knowing a better way tomorrow is high, and the cost of putting in the design tomorrow is low, then we can conclude that we should never make a design decision today if we don't need it today. "Sufficient to the day are the troubles thereof."
+
+    If the cost of making the change tomorrow is very much higher, when we shoud make the decision today on the off chance that we are right. If the inertia of the design is low enough, then the benefits of just-in-time design are less (you have really smart people).
+
+  *Role of Pictures in Design*
+
+    - some people really do think better about their design in terms of pictures instead of code. 
+    - trouble drawing pictures indicates trouble with the design
+    - designing with pictures is speed
+    - in the time it would take you to code one design, you can compare and contrast three designs using pictures. 
+
+    - the problem with pictures is that they can't give you concrete feedback, you are insulated from much of it. The feedback you are insulated from is exactly the feedback that teaches you the most - WIll this run teh test cases? Does this support simple code? This is feedback you can get only from coding. 
+
+    Principles:
+      1. small initial investment
+      2. play to win
+      3. rapid feedback
+      4. working with people's instincts
+      5. embracing change and travel light
+
+    The XP strategy is designing with pictures is great, but as soon as a question is raised that can be answered with code, then the designers must turn to code for the answer. 
+
+  *System Architecture*
+
+    - If you have a good metaphor in place, everyone on the team can tell about how the system as a whole works. 
+
+    - The Planning Game rules ask that the first iteration must be a functioning skeleton of the system as a whole. Still you have to the simplest thing that could possibly work. How can you reconcile these two?
+
+    - For the first iteration, pick a set of simple, basic stories that you expect will force you to create the whole architecture. Then narrow your horizon and implement the stories in the simplest way that can possibly work. At the end of this exercise you will have your architecture. It may not be what you expected, but you will have learned something. 
+
+    - What if you can't find a set of stories that forces you to create teh architecture you know, you absolutely know, you are going to need? Either you can put the whole architecture in place on speculation, or you can put as much architecture in place now as you need to meet your current needs, and trust that you can put more in later. I put in the architecture I need now and trust my ability to change it later. 
+
+**Testing Strategy** 
+
+  we will write test before we code, minute by minute. We will preserve these tests forever, and run them all together frequently. we will also derive tests from the customer's perspective. 
+
+  XP testing is a confidence game. Every time you write some code, you think it is going to work. Every time you think it is going to work, you take that confidence out of the ether and turn it into an artifact that goes into the program. The confidence is there for their own use. And because it is there in the program, everyone else can use that confidence, too. 
+
+  The same story goes for the customer, every time you think of something concrete the program should do, you turn it into another piece of confidence that goes into the program. The program jsut gets more and more confident. 
+
+  you should write the tests that help get programs working and keep programs working. Nothing more. 
+
+  there is the principle - "Work with human nature, not against it." Testing is not at the center of development. you must do this test and that test and oh yes this other one, too. Tests are there as instrumentation, and it is the behavior of the system being instrumented that everyone cares about, not the tests themselves. 
+
+  Testing goes against human nature. If you release hte pig in you, you will see that you program without tests. Pair programming reduces the probability that both partners are releasing their pigs at the same moment. 
+
+  Tests shouldn't interact with the others you write. This way you avoid the problem that one test fails and causes a hundred other failures. Nothing discourages testing more than false negatives. 
+
+  Tests should be automatic
 
 
 
