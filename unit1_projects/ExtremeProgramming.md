@@ -398,7 +398,35 @@
     - limit the scope of development to what is really needed. 
     - you want a process that doesn't generate too much pressure that people do things that turn out to be stupid.
 
+**Development Strategy**
+
+  Unlike the management strategy, the development strategy is a radical departure from conventional wisdom-we will carefully craft a solution for today's problem today, and trust that we will be able to solve tomorrow's problem tomorrow.
+
+  Dev strategy begins with:
+    iteration planning, continuous integration, collective ownership, and pair programming.
   
+  *Continuous Integration* 
+    - no code sits unintegrated for more than a couple of hours. 
+    - At the end of every dev episode, the code is integrated with the latest release and all the tests run at 100%. 
+
+    At the outer limit of continuous integration, every time you changed a method, the change would instantly be reflected in everyone else's code. 
+
+    Integrating after a few hours gives many of the benefits of both styles - single programmer and instantaneous integration. 
+
+    Constant refactoring beraks the system into lots of little object and lots of little methods, this lowers the chance that two pairs of programmers will change the same class or method at the same time.
+
+    Another important reason to accept the costs of continuous integration is that it dramatically reduces the risk of the project. 
+
+    Continuous integration allows for a rhythm to development, it's almost like breathing, you form an idea, you express it, you add it to the system. Now your mind is clear, ready for the next idea. 
+
+  *Collective Ownership*
+  
+    seemingly crazy idea that anyone can change any piece of code in the system at any time, without tests you'd be dead in the water trying to do this. 
+
+    - another effect is that because of collective ownership complex code doesn't exist very long. If the simplification doesn't work, then the code will be thrown away. 
+
+    - prevent complex code from entering the system
+
 
 
 
