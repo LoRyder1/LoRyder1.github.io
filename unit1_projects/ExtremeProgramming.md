@@ -95,7 +95,7 @@
 
     eliminate downside risk - there is a cost to implementing a feature and it may be more expensive to do it now rather than wait. The value is uncertain and its value could be zilch.
 
-** Four Variables **
+**Four Variables**
 
   We will control four variables in our projects - cost, time, quality, and scope. Of these, scope provides us the most valuable form of control. 
     - Cost
@@ -122,7 +122,7 @@
       1. get lots of practice making estimates and feeding back the actual results. Better estimates reduce the probability that you will have to drop funcitonality.
       2. Implement the most important requirements first, so if further functionality has to be dropped it is less important than the functionality that is already running in the system. 
 
-** Cost of Change **
+**Cost of Change**
 
   Under certain circumstances, the exponential rise in the cost of changing software over time can be flattened. If we can flatten the curve, old assumptions about the best way to develop software no longer hold. 
 
@@ -141,11 +141,118 @@
 
   Goal is to make decisions quickly, but back each decision with automated tests, and that prepares you to improve design
 
+** Learning to Drive **
 
+  We need to control the development of software by making many small adjustments, not by making a few large adjustments, kind of like driving a car. This means that we will need the feedback to know when we are a little off, we will need many opportunities to make corrections, and we will have to be able to make those corrections at a reasonable cost. 
 
+  "Driving is not about getting the car going in the right direcion. Driving is about constantly paying attention, making a little correction this way, a little correction that way."
 
+  *Change is the only constant*
 
+    - everything changes in software, the requirements change, the design changes, the business chanes, the technology changes, the team changes, the team members change. The problem is the inability to cope with change when it comes.
+    - our job as programmers is to give the customer a steering wheel and give them feedback about exactly where we are on the road. 
 
+**Four Values**
+
+  We will be successful when we have a style that celebrates a consistent set of values that serve both human and commercial needs: communication, simplicity, feedback, and courage. 
+
+    - communication, simplicity, feedback, and courage
+
+  *Communication*
+  - the effect of testing, pairing, and estimating is that programmers and customers and managers have to communicate.   
+  
+  *Simplicity*
+  XP makes a bet that it is better to do a simple thing today and pay a little more tomorrow to change it if it needs it, than to do a more complicated thing today that may never be used anyway. The simpler your system is, the less you have to communicate about, which lead to more complete communication, especially if you can simplify the system enough to requrie fewer programmers. 
+
+  *Feedback*
+  "Don't asky me, ask the system."
+
+    - concrete feedback about the current state of the system is absolutely priceless. Optimism is an occupational hazard of programming. Feedback is the treatment.
+    - the thinking goes that once a project is in production nothing interesting can be done. This is exactly backwards. In development is a temporary state. It is far better to give the system independent life, to make it stand and breathe on its own. 
+    - It is best to live with supporting production and developing new functionality simulatneously. Get used to juggling production and development sooner rather than later. 
+
+  *Courage*
+
+    Don't be afraid to throw away bad code. Sometimes you have to have courage to throw away something if it isn't working or the best decision. 
+
+    XP's design strategy resembles a hill-climbing algorithm. You start with a simple design, them you make it a little more complex, then a little simpler, then a little more complex. The problem with hill-climbing algorithms is reaching local optima, where no small change can improve the situation, but a large change could. 
+
+    Courage supports courage because it opens the possiblity for more high-risk, high-reward experiments. 
+
+    - simplicity supports courage because you can afford to be much more courageous with a simple system. 
+    - feedback supports courage because you feel much safer trying radical surgery on the code if you can push a button and see the test turn green at the end.
+
+  *The Values in Practice*
+
+    - there is a deeper value below the surface of the other four - respect. 
+    - Given some minimal passion, XP provides some positive feedback. This is not manipulative; it's just enjoying being part of something that works, instead of part of something that doesn't work. 
+
+**Basic Principles**
+
+  1. Rapid feedback
+  2. Assume simplicity
+  3. Incremental change
+  4. Embracing change
+  5. Quality work
+
+  *Rapid feeback* 
+    - time between an action and its feedback is critical to learning. 
+  *Assume simplicity*
+    - treat every problem as though it can be solved with ridiculous simplicity
+  *Incremental Change*
+    - big changes made all at once just don't work.
+    - any problem is solved with a series of the smallest changes that make a difference. 
+  *Embracing change*
+    - the best strategy is the one that preserves the most options while actually solving your most pressing problem.
+  *Quality work*
+    - nobody likes working sloppy. Quality isn't really a free variable. The only possible values are "excellent" or "extremely excellent".
+
+    Play to win,  don't play to not lose. A lot of times during software development - lots of paper is written, lots of meetings are held, everyone is trying to develop "by the book," not because it makes any particular sense, but because they want to be able to say at the end that it wasn't their fault, they were following the process.
+
+  *Open, hones communication*
+  *accepted responsibility*
+  *local adaptation*
+
+    Maintain in your XP repertoire few, simple, valuable
+
+  *Honest measurement*
+    - lines of codes is a useful measurement in the face of code that shrinks when we learn better ways of programming. 
+
+**Back to Basics**
+
+  We want to do everything we must do to have stable, predictable software development. But we don't have time for anything extra. The four basic activities of development are coding, testing, listening, and designing. 
+
+  "Learning to Drive". Four values - communication, simplicity, feedback, and courage. 
+
+  *Coding*
+    - what do we want to get out of coding? - learning.
+    - communicate clearly and concisely
+
+  *Testing*
+    - software features that can't be demonstrated by automated tests simply don't exist.
+    - "Test Infected" - used to describe people who won't code if they don't already have a test. 
+    - tests keep the program alive longer - your confidence in the system increases over time.
+    - programming with tests is funner, you have more confidence.
+    - programming and testing together is also faster than just programming. The gain in productivity comes from a reduction in the time spend debugging. You no longer spend an hour looking for a bug. 
+
+    There is the danger of testing done badly. - this can be like looking through a set of rose-colored glasses. The trick with testing is finding the level of defects you are willing to tolerate. 
+    Should have unit tests written by programmers to convince themselves that their programs work the way they think the programs work. We will also have functional tests written by the customers to convince themselves that the system as a whole works the way they think the system as a whole should work. 
+    There are two audiences for tests. Programmers need to make their confidence conrete in the form of tests. The customer needs to prepare a set of tests that represent their confidence. - "Well i guess if you can compute all of these cases, the system must work."
+  
+  *Listening*
+    - programmers don't know anything, you have to ask someone else.
+    - if you are going to ask questions, then you'd better be prepared to listen to the answers.
+
+  *Designing*
+    - creating a structure that organizes the logic in the system. Good design organizes the logic so that a change in one part of the system doesn't always require a change in another part of the system. Good design ensures that every piece of logic in the system has one and only one home. Good design puts the logic near the data it operates on. Good design allows the extension of the system with changes in only one place. 
+
+    Coding, Testing, Listening, Designing
+
+##The Solution
+
+**A Quick Overview**
+
+  
 
 
 
