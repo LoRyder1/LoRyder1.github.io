@@ -106,9 +106,42 @@
   
   The solution is to make the four variables visible. If everyone can see all four variables, they can consciously choose which variables to control. 
 
-  Quality - by insisting on better quality you can get projects done sooner, or you can get more done in a given amount of time. There is a dichotomy between internal quality and external quality. Sacrificing internal quality is a short term play. 
+  *Quality* - by insisting on better quality you can get projects done sooner, or you can get more done in a given amount of time. There is a dichotomy between internal quality and external quality. Sacrificing internal quality is a short term play. 
 
-  There is a human effect from quality. Everybody wants to a good job, and they work much better if they feel they are doing good work. If you deliberately downgrade quality, your team might go faster at first, but soon the demoralization of producing crap will overwhelm any gains you temporarily made from not testing, or not reviewing, or not sticking to standards. 
+  There is a *human effect* from quality. Everybody wants to a good job, and they work much better if they feel they are doing good work. If you deliberately downgrade quality, your team might go faster at first, but soon the demoralization of producing crap will overwhelm any gains you temporarily made from not testing, or not reviewing, or not sticking to standards. 
+
+  For software development scope is the most important variable to be aware of. Once of the greatest problems in development is that the customer can't tell us what they want and when we give them what they want - they don't like it. The requirements are never clear at first. Customers can never tell you exactly what they want. 
+
+  *Scope* and the *softness of the requirement* should be looked at as an opportunity. Because it is *soft*, we can shape it- a little this way, a little that way. If time gets tight toward a release date, there is always somehting that can be deferred to the next release. By not trying to do too much, we preserve our ability to produce the required quality on time. 
+
+  Build a process that can *tolerate change easily*, because the project have the tendency to change often. Why build a road you never drive on because you took another turn.
+
+  If you drop important functionality at the end of every release cycle, the customer would soon get upset. 
+
+    XP uses two strategies
+      1. get lots of practice making estimates and feeding back the actual results. Better estimates reduce the probability that you will have to drop funcitonality.
+      2. Implement the most important requirements first, so if further functionality has to be dropped it is less important than the functionality that is already running in the system. 
+
+** Cost of Change **
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
