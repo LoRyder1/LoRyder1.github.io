@@ -252,7 +252,125 @@
 
 **A Quick Overview**
 
+  rely on the synergies between simple practices, practices that often were abandoned decades ago as impractical or naive. 
+
+  1. learning to drive
+  2. four values - communication, simpicity, feedback, and courage
+  3. principles
+  4. four basic activities - coding, testing, listening, and designing
+
+  *Planning Game* - quickly determine the scope of the next release by combining business priorities and technical estimates. As reality overtakes the plan, update the plan. 
+
+  *Small Releases* - put a simple system into production quickly, then release enw version on a very short cycle
+
+  *Metaphor* - guide development with a simple story on how it works.
+
+  *Simple design* - system should be designed as simply as possible at any given moment
+    1. runs all the tests
+    2. has no duplicated logic. be wayr of hidden duplication like parallel class hierarchies
+    3. states every intention important to the programmers
+    4. has the fewest possible classes and methods
+
+  *Testing* - write tests
+
+  *Refactoring* - programmers restructure the system without changing its behavior to remove duplication, improve communication, simplify, or add flexibility.
+
+  *Pair programming* - 
+
+  *Collective ownership* - anyone can change any code anywhere in the system at any time.
+
+  *Continuous integration* - integrate and build the sytem many times a day, every time a task is completed.
+
+  *40 hour week* - Work no more than 40 hours a week as a rule
+
+  *On-site customer* - include a real, live user on the team.
+
+  *Coding standards* - Programmers write all code in accordance with rules emphasizing communication through the code.
+
+**How Could This Work**
+
+  The practices support each other. The weakness of one is covered by the strength of others.
   
+  Any one practice doesn't stand well on its own (with the possible exception of testing). they require the other practices to keep them in balance. 
+  
+**Management Strategy**
+
+  We will manage the overall project using business basics-phased delivery, quick and concrete feedback, clear articulation of the business needs of the system, and specialists for special tasks. 
+
+  Fall back to:
+    1. accepted responsibility - manager should highlight
+    2. quality work - based on trust
+    3. incremental change - manager should provide guidance
+    4. local adaptation - manager should take the lead in adapting
+    5. travel light - manager shouldn't impose a lot of overhead
+    6. honest measurement - whatever metris the manager gathers should be at realistic levels of accuracy. 
+
+  The strategy that emerges is more like decentralized decision making than centralized control. The manager should run the Planning Game, to collect metrics, to make sure the metrics are seen by those whose work is being measured, and occasionally to intervene in situations that can't be resolved in a distributed way. 
+
+  *Metrics*
+
+    - ratio between estimated dev time and calendar time is the basic measure for running the Planning Game. It lets the team set the Project Velocity.
+
+  *Coaching*
+
+    - coaching is primarily concerned with the technical execution (and evolution) of the process. The ideal coach is a good communicator, not easily panicked, technically skilled (although this is not an absolute requirement), and confident.
+    - the idea of the coach is to not be the lead genius, but to get others to make good decisons. 
+
+      - be available as a dev partner
+      - see long-term refactoring goals
+      - help programmers with individual technical skills, like testing, formatting, and refactoring
+      - explain the process to upper-level managers
+
+  *Tracking*
+
+    You can make all the estimates you want, but if you don't measure what really happens against what you predicted would happen, you won't ever learn. 
+
+  *Intervention*
+
+    sometimes decisions need to be made, even unpopular ones - and seeing the consequences through to the end. Humility is important. Never wait on intervention as it will only make the problem worse.
+
+**Splitting Business and Technical Responsiblity**
+
+  One key to our strategy is to keep technical people focused on technical problems and business people focused on business problems. the project must be driven by business decisions, but the business decisions must be informed by technical decisions about cost and risk.
+
+    - Business people should choose
+      1. the scope or timing of releases
+      2. the relative priorities of proposed features
+      3. the exact scope of proposed features
+
+    - Developers
+      1. estimates of the time required to implement various features
+      2. estimates of the consequences of various tech alternatives
+      3. a dev process that suits their personalities
+      4. what set of practices they will use to begin with
+    
+  *Choice of Technology*
+    - choice should be a business decision informed by input from the developer.
+
+  *What if It's Hard?*
+    - you do all you can to encourage smaller scope, but sometimes it is important to go over the trenches. 
+    - the split between business and development is not an excuse to avoid tough jobs. It is a way of sorting out those jobs that are geninely tough from those jobs that you haven't figured out how to make simple yet. 
+
+**Planning Strategy**
+
+  We will plan by quickly making an overall plan, then refining it further and further on shorter adn shorter time horizons - years, months, weeks, days. We will make the plan quickly and cheaply, so there will be little inertia when we must change it. 
+
+  Planning 
+    - brings the team together
+    - decide on scope and priorities
+    - estimate cost and schedule
+    - give everyone involved confidence that the system can actually be done
+    - provide a benchmark for feedback
+
+    Principles for Planning
+      1. do only planning you need for the next horizon
+      2. accepted responsibility - responsibility can only be accepted not given.
+      3. person responsible for implementation gets to estimate
+      4. ignore dependencies between parts
+      5. plan for priorties vs planning for development
+
+
+
 
 
 
