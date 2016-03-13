@@ -420,13 +420,30 @@
     Continuous integration allows for a rhythm to development, it's almost like breathing, you form an idea, you express it, you add it to the system. Now your mind is clear, ready for the next idea. 
 
   *Collective Ownership*
-  
+
     seemingly crazy idea that anyone can change any piece of code in the system at any time, without tests you'd be dead in the water trying to do this. 
 
     - another effect is that because of collective ownership complex code doesn't exist very long. If the simplification doesn't work, then the code will be thrown away. 
-
     - prevent complex code from entering the system
+    - increases your feeling of personal power on a project.
+    - spread knowledge of the system around the team
+    - reduces project risk
 
+  *Pair Programming*
+
+    - pair programming is a subtle skill, one that you can spend the rest of your life getting good at. 
+    - pair programming isn't just one person programming while another watches. Just watching someone program is about as interesting as watching grass die in a desert. It is a dialog between two people trying to simultaneously program (and analyze and design and test) and understand together how to program better. It is a conversation at many levels, assisted by and focused on a computer. 
+    - after a few week the junior partner is expected to pick up the larger patterns and notice deviations from those patterns. 
+
+    In a couple of months the gap between the partners is not nearly so noticeable as it was at first. 
+
+    Pair programming works for XP because of communication, and there are few forms of communication more intense than face-to-face. So, pair programming works for XP because it encourages communication. It is like the analogy of a pool of water. When new info is learned it is like putting a drop of dye in the water. Because pairs switch so often the info diffuses throughout the team. The info becomes richer and more intense as it spreads and is enriched by the experience and insight of everyone on the team. 
+
+    Pair programming is more productive than dividing the work between two programmers and then integrating. The resulting code quality is much higher, while one is typing the other is thinking more strategically. 
+
+    Another important component is that some of the practices would not work without it. Under stress, people revert. They will skip writing tests, they will put off refactoring, they will avoid integrating. With a partner watching your partner won't let you skip. The chances of ignoring your commitment to the rest of the team is much smaller in pairs than it is when you are working alone. 
+
+    The conversational nature of pair programming also enhances the software development process. You quickly learn to talk at many different levels, comparing and contrasting, talking about experiences, the practices you are using and how they can be made better.     
 
 
 
