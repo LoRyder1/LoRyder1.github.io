@@ -124,8 +124,22 @@
 
 ** Cost of Change **
 
-  
+  Under certain circumstances, the exponential rise in the cost of changing software over time can be flattened. If we can flatten the curve, old assumptions about the best way to develop software no longer hold. 
 
+  The goal of XP is to reduce the cost of change over time. It is widely assumed the code maintenance is exponential over time. The goal is to develop software where the cost of change doesn't rise exponentially over time, but rises much more slowly eventually reaching an asymptote.
+
+  If this is possible you would delay making the big decisions as late as possible to defer the cost of making the change and also would in turn be increasing the chance that the decision is right. 
+
+  The goal is to make change cheap. The additional value and reduced risk of early feedback outweights the additional cost of early change. 
+
+  *Easy to modify code*
+    - simple design, no extra design element - no ideas that weren't used yet but were expected to be used in the future. 
+    - automated tests so we had confidence and know we didn't accidentally changed the existing behavior of the system.
+    - lots of practice in modifying the design, so when the time came to change the system, we weren't too afraid to try it. 
+
+  * simple design, tests, and an attitude of constant refinement of design * = flattened curve. 
+
+  Goal is to make decisions quickly, but back each decision with automated tests, and that prepares you to improve design
 
 
 
