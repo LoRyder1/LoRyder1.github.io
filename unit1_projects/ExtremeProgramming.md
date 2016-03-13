@@ -569,17 +569,75 @@
 
   Tests shouldn't interact with the others you write. This way you avoid the problem that one test fails and causes a hundred other failures. Nothing discourages testing more than false negatives. 
 
-  Tests should be automatic
+  Tests should be automatic. Tests are most valuable when the stress level rises, ahen people are working too much, when human judgement starts to fail. The tests must be automatic-returning an unqualified thumbs up/thumbs down indication of whether the system is behaving. 
+
+  you should test things that might break. If code is so simple that it can't possibly break, and you measure that the code in question doesn't actually break in practice, then you shouldn't write a test for it. 
+
+  Testing is a bet. The bet pays off when your expectations are violated. One way a test can pay off is when a test works that you didn't expect to work. Then yo better go find out why it works, because the code is smarter than you are. Another way a test can pay off is when a test breaks when you expected it to work. In either case, you learn something. The more you learn , the better you develop - that is software development. 
+
+  The aim is to write those tests that pay off. you write tests that might pay off. As you test, you reflect on which kinds of tests tend to pay off and which don't, and write more of the ones that do pay off, and fewer fo the ones that don't. 
+
+ *Who Writes Tests?*
+
+  Programmers
+  Customers
+
+  The programmer-written unit tests always run at 100%. If one of hte unit tests is broken, no one on the team has a more important job than fixing the tests. 
+
+  The customers write tests story-by-story. What would I need to check before I would be confident that this story was done? Each scenario they come up with turns into a test, in this case a funcitonal test. 
+
+    Other testing
+      1. parallel test - a test designed to prove that the new system works exactly like the old system
+      2. Stress test - a test design to simulate the worst possible load. Stress tests are good for complex systems where the performance characteristics are not easily predictable
+      3. Moneky test - a test designed to make sure the system acts sensibly in the face of nonsensical input. 
+
+##Implementing XP
+
+  *Adopting XP*
+
+    adopt XP one practice at a time, always addressing the most pressing problem for your team. Once that's no longer your most pressing problem, go on to the next problem. 
+
+    How to adopt?
+      1. pick your worst problem
+      2. Solve it the XP way
+      3. When it's no longer you worst problem, repeat
+
+    - the two obvious places to start are testing, and the Planning Game. 
+    - Many projects are plagued with quality problems, or with an imbalance of power between business and development. 
+
+    Solve the most pressing problem first - this addresses the objection that it is one size fits all. 
+
+  *Retrofitting XP*
+  
+    Projects that want to change their existing culture are far more common than projects that can create a new culture from scratch. Adopt XP on running projects a little at a time, starting with testing or planning.
+
+  *Testing*
+
+    - when you need to add functionality to untested code, write tests for its current functionality first. 
+    - when yo need to fix a bug, write a test first
+    - when you need to refactor, write tests first
+
+    Development will feel slow at first. You will spend much more time writing tests than you do in normal XP, and you will feel like you make progress on new functionality more slowly than before. However, the parts of the system that you visit all the time, the parts that attract attention and new features, will quickly be thoroughly tested. Soon, the parts of the system that are used most will feel like they were written with XP.
+
+  *Design*
+
+    you will want to fix everything at once. Don't. Take it a bit at a time. As you add new functionality, be prepared to refactor first. You are always prepared to refactor first before implementing in XP development, but you will have to do it more often as you are transitioning to XP. 
+
+    Early on in the process identify some large-scale refactoring goals. 
+
+    Demand driven testing strategy. Those parts of the system that you visit all the time in your development activities will soon feel like the code that you are writing now. The overhead of extra refactorings will soon fade. 
+
+  *Planning*
+
+  *Management*
+
+    XP management is a game of indirection and influence. 
+
+  *Development*
+
+    Pair programming
 
 
+  Make modest goals when transitioning to XP. If you're going to switch a troubled project to XP, make it a dramatic gesture. Half measures are going to leave everybody in more or less the same state that they were before. Carefully evaluate the current code base. Would you be better off withou it? If so flush it. All of it. Have a big bonfire and burn the old tapes. Take a week off. Start over fresh.
 
-
-
-
-
-
-
-
-
-
-
+  
