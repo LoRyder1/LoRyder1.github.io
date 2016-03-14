@@ -640,4 +640,19 @@
 
   Make modest goals when transitioning to XP. If you're going to switch a troubled project to XP, make it a dramatic gesture. Half measures are going to leave everybody in more or less the same state that they were before. Carefully evaluate the current code base. Would you be better off withou it? If so flush it. All of it. Have a big bonfire and burn the old tapes. Take a week off. Start over fresh.
 
+**Lifecycle of an Ideal XP Project**
   
+  The ideal XP project goes through a short initial development phase, followed by years of simultaneous production support and refinement, and finally graceful retirement when the project no longer makes sense.
+
+  *Exploration*
+    "To go into production is to die." XP says exactly the opposite. Not to be in production is to be spending money without making money. Before you can go into production, however, you have to believe that you can go into production. 
+
+    You are don with exploration when the customer is confident that there is more than enough material on the story cards to make a good first release and the programmers are confident that they can't estimate any better without actually implementing the system. 
+
+    Experiment with technologies, performance limits, architectural ideas. While the team is practiing with the technology, the customer is practicing writing stories. 
+
+  *Planning*
+
+    The purpose of the planning phase is for the customers and programmers to confidently agree on a date by which the smallest, most valuable set of stories will be done. 
+
+  *Iterations to First Release*
