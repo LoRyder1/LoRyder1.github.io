@@ -656,3 +656,13 @@
     The purpose of the planning phase is for the customers and programmers to confidently agree on a date by which the smallest, most valuable set of stories will be done. 
 
   *Iterations to First Release*
+
+    Each iteration will produce a set of functional test cases of the stories scheduled for that iteration. The first iteration puts the architecture in place. Pick stories for the first iteration that will force you to create "the whole system, " even if it is in skeletal form. 
+
+    When you detect deviations from the plan, then you need to change something. Maybe the plan needs to change-add or remove stories or change their scope. Maybe the process needs to change - add or remove stories or change their scope. 
+
+    Ideally, at the end of every iteration, the customer will have compeleted the functional test and they will all run. At the end of the last iteration, you are ready to go into production.
+
+  *Productionizing*
+
+    The end game of release sees a tightening up of the feedback cycle. Instead of three week iterations, you may go to one-week iterations. You may have a daily standup meeting so everybody knows what everybody else is working on.
