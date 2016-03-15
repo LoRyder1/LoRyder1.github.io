@@ -831,4 +831,41 @@
 
   The biggest bottlneck in scaling is the single-threaded integration process. 
 
-  
+**XP at Work**
+
+  XP can accommodate the common forms of contract, albeit with slight modifications. Fixed price/fixed scope contracts, in particular, become fixed price/fixed date/roughly fixed scope contracts when run with the Planning Game. 
+
+  How can you fit XP to common business practices? The wrong form of contract can easily break a project, regardless of tools, technology, and talent. 
+
+  *Fixed Price*
+
+    Fixe price and scope end up saying "The requirements weren't clear". The supplier wants to do as little as possible and the customer want to demand as much as possible.
+
+    Within XP, the initial scope is a "for instance." Instead of fixed price/date/scope, the XP team offers something more like a subscription. 
+
+    Another difference XP introduces is caused by small releases. Incremental delivery builds in the opportunity for the customer to terminate the contract if progress is slower than initially  estimated, or if business conditions make the whole project nonsense, and it gives the customer natural points to change the direction of the project. 
+
+**Conclusion**
+
+  All methodologies are based on fear. You try to set up habits that prevent your fears from becoming reality. XP is no different in this respect from any other methodology. The differenece is in what fears are embedded in XP. To the degree that XP is my baby, XP reflects my fears. I am afraid of: 
+
+    1. Doing work that doesn't matter
+    2. Having projects canceled because I didn't make enough technical progress
+    3. Making business decisions badly
+    4. Having business people make technical decisions badly for me
+    5. Coming to the end of a career of building systems and realizing that I should have spent more time with my kids.
+    6. Doing work I'm not proud of
+
+  XP also reflects the things I'm not afraid of:
+
+    1. Coding
+    2. Changing my mind
+    3. Proceeding without knowing everything about the future
+    4. Relying on other people
+    5. Changing the analysis and design of a running system
+    5. Writing tests
+
+  We can drive ourselves crazy with expectation. But by preparing for every eventuality we can think of, we leave ourselves vulnerable to the eventualities we can't imagine. 
+
+  There is another way. The team can be perfectly prepared at any moment to go in whatever direction the business or the system demands. By giving up explicit preparation for change, paradoxically they become entirely prepared for any change. They expect nothing. They can no longer be surprised. 
+
