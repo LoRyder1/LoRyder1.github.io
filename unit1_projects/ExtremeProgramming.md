@@ -813,4 +813,22 @@
 
   Driving projects by steering a little at a time goes contrary to the car-pointing metaphor prevalent in lots of organizations. A final difficulty, an one that can easily sink an XP project, is that steering is just not acceptable in many compnay cultures. Early warning of problems is seen as a sign of weakness or complaining. You will need courage when your company asks you to act contrary to the process you have chosen for yourself. 
 
+**When you SHouldn't Try XP**
+
+  The exact limit of XP aren't clear yet. But there are some absolute showstoppers that prevent XP from working-big teams, distrustful customers, technology that doesn't support graceful change. 
+
+  There are some practices in XP that are good idea regardless. Testing is a good example, the Planning Game probably works. There is a huge difference between all of it and not all of it. 
+
+  The biggest barrier to the success of an XP project is culture: business culture. 
+
+  A variant of "pointing the car" is the big specification. If a customer or manager insists on a complete specification or analysis or design before they begin the small matter of programming, then there is bound to be friction between the team's culture and the customer or manager's culture. The project may still be able to be successful using XP, but it won't be easy. 
+
+  Another culture that is not conducive to XP is one in which you are required to put in long hours to prove your "commitment to the company." You can't execute XP tired. 
+
+  Really smart programmers sometimes have a hard time with XP. Sometimes the smart people have the hardest time trading the "Guess Right" game for close communication and continuous evolution. 
+
+  The amount of functionality to be produced and the number of people producing it don't have any sort of simple linear relationship. 
+
+  The biggest bottlneck in scaling is the single-threaded integration process. 
+
   
