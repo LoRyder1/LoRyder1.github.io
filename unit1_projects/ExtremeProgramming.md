@@ -666,3 +666,43 @@
   *Productionizing*
 
     The end game of release sees a tightening up of the feedback cycle. Instead of three week iterations, you may go to one-week iterations. You may have a daily standup meeting so everybody knows what everybody else is working on.
+
+    Typically there will be some process for certifying the software is ready to go into production. Be prepared to implement new tests to prove your fitness for production. Parallel testing is often applied at this stage. 
+
+    "Make it run, make it right, make it fast." Late in the game is the perfect time to tune, because you will have as much knowledge as possible embedded in the design of the system, you will have the most realistic possible estimates of the production load on the system, and you are likely to have the production hardware available. 
+
+    During productionizing, you will slow down the pace at which you evolve the software. It isn't that software stops evolving, but rather that risk becomes more important in your evaluation of whether a change deserves to go into this release. The more experience you have with a system, the more insight you will have into how it should be designed. 
+
+  *Maintenance*
+
+    Maintenance is really the normal state of an XP project. You have to simultaneously produce new funtionality, keep the existing system running, incorporate new people into the team, and bid farewell to members who move on. 
+
+    Every release begins with an exploration phase. You may try big refactorings that you were afraid of late in the previous release. 
+
+    Developing a system that is in production is not at all the same as developing a system that isn't yet in production. You are more careful of the changes you make. 
+
+    Being in production is likely to change your development velocity. 
+
+    Be prepared to change the team structure to deal with production. You may want to take turns manning the "help desk," so most of the programmers don't have to deal with production interruptions most of the time. Be careful to rotate all the programmers through the position-there are things you learn from supporting production.
+
+  *Death*
+
+    Dying well is as important as living well. This is as true for XP as for people. 
+
+    If the customer can't come up with any new stories, then it is time to put the system into mothballs. That is the good reason to die. 
+
+    There is also a not-so-good reason to die-the system just isn't delivering. The customer needs features and you just can't add them economically. The defect rate creeps up to where it is intolerable. 
+
+    THis is the entropic death you have fought against for so long. XP is not magic. Entropy eventually catches XP projects, too. 
+
+**Roles for People**
+
+  Certain roles hve to be filled for an extreme team to work - programmer, customer, coach, tracker.
+
+  A sports team works best when there are certain roles that someone takes responsiblity for.
+
+  These roles become customary, and sometimes even embedded in the rules of the game, precisely because they work. Good coaches are effective at getting a player to work well at their position. THey spot deviations from the usual practice of the position and either help the player correct the deviation, or understand why it is acceptable for that player to do things a little differently. 
+
+  Great coaches realize that the positions are merely customary, not laws of nature. From time to time, the game changes or the players change enough so that a new position becomes possible or an old one becomes obsolete. 
+
+  Another great facility of great sports coaches is their ability to mold the system to their players, instead of the other way around. You will do better by creating a new system that lets the team's talents shine. 
