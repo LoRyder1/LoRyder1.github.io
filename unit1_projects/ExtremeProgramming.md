@@ -773,4 +773,44 @@
 
   *Consultant*
 
+    XP projects don't spawn a lot of specialists. Since everyone is pairing with everyone else, and the pairs float around so much, and anyone can accept responsiblity for a task if they want to, there is little chance that dark holes will develop where only one or two people understand the system. 
+
+    This is a strength, because the team is extremely flexible, but it is also a weakness, because from time to time the team needs deep technical knowledge. The emphasis on simplicity of design reduces the occurrence of the need for the need for the pointy hat, but it will happen from time to time. 
+
+  *Big Boss*
+
+    If you're the big boss, what the team needs most from you is courage, confidence, and occasional insistence that they do what they say they do. It is likely to be difficult for you to work with the team at first. 
+
+**20-80 Rule**
+
+  The full value of XP will not come until all the practices are in place. Many of the practies can be adopted piecemeal, but their effects will be multiplied when they are in place together. 
+
+  80% of the benefit comes from 20% of the work. XP makes use of this rule itself- put the most valuable 20% of functionality into production, do the most valuable 20% of the design, rely on the 20-80 rule to defer optimization. 
+
+  For the 20-80 rule to apply, the system in question must have controls that are relatively independent of each other. If you are a little off balance, yo may as well be a lot off balance. You will only see 20% of the improvement when you have done 80% of these exercises. If you are off balance, you may as well be a lot off balance. It is a host of little factors, like getting your boots just right, that allow you to be right on balance. If any one is off, you'll be off. You will see slow improvement all along, but the last few changes you make will dramatically improve your skiing. 
+
+  In XP the practices and principles work together with each other to create a synergy that is greater than the sum of the parts. It's not just that you do testing, it's that you are testing a simple system, an it got simple because you had a pair programming partner who challenged you to refactor and reminded you to write more tests and patted you on the back when you got rid of complexity and...
+
+  Is XP all or nothing? You can get significant gains from parts of XP. It's just that there is much more to be gained when you put all the pieces in place. 
+
+**What Makes XP Hard**
+
+  Even though the individual practices can be executed by blue-collar programmers, putting all the pieces together and keeping them together is hard. It is primarily emotions-especially fear-that make XP hard. 
+
+  The hard part of XP is putting all the pieces together, and then keeping them in balance. The pieces tend to support each other, but there are many problems, concerns, fears, events, and mistakes that can throw the process off balance. The whole reason you would "sacrifice" a senior technical person to be coach is because the problem of keeping the process on balance is so difficult. 
+
+  Learning to see the world in the simplest possible terms is a skill and a challenge. Sometimes it is easier to do something more complicated than to do something simple. You have to challenge your value system. You have to learn to be dissatisfied with complexity, not to rest until you can't imagine anything simpler working. 
+
+  It's hard to admit you don't know. XP is based on the premise that you can develop only as fast as you learn. It is sometimes frightening to go to the customer and ask them to explain what are to them the most elementary concepts. 
+
+  It is hard to collaborate. Our whole education system is tuned to individual achievement. If you work with someone on a project, the teacher calls it cheating and punishes you. The reward systems in most companies, with individual evaluations and raises (often cast as a zero sum game), also encourages individual thinking. You will likely have to learn new people skills, interacting as closely with your team as you will in XP. 
+
+  It is hard to break down emotional walls. Teams can not function properly if communication is not kept flowing, fears acknowledged, anger discharged, joy shared. 
+
+  The XP practices are so sideways to what we have heard and said and maybe even been successful with in the past. One of the big difficulties is just how contrary XP sounds. I'm often afraid when I first meet a new manager that I will sound radical or crazy or impractical. 
+
+  Little problems can have huge effects. You have to accept responsibility for your own process, you are accepting responsibility for being aware and fixing it when there is a problem. 
+
+  Driving projects by steering a little at a time goes contrary to the car-pointing metaphor prevalent in lots of organizations. A final difficulty, an one that can easily sink an XP project, is that steering is just not acceptable in many compnay cultures. Early warning of problems is seen as a sign of weakness or complaining. You will need courage when your company asks you to act contrary to the process you have chosen for yourself. 
+
   
