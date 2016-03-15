@@ -706,3 +706,71 @@
   Great coaches realize that the positions are merely customary, not laws of nature. From time to time, the game changes or the players change enough so that a new position becomes possible or an old one becomes obsolete. 
 
   Another great facility of great sports coaches is their ability to mold the system to their players, instead of the other way around. You will do better by creating a new system that lets the team's talents shine. 
+
+  *Programmer*
+
+    The programmer is the heart of XP. If programmers could always make decisions that carefully balanced short-term and long-term priorities, there would be no need for any other technical people on the project besides programmers. 
+
+    Your job isn't over when the computer understands what to do. Your first value is communication with other people. 
+
+    You try to develop the most valuable software for the customer, but not to develop anyting that isn't valuable. If you can reduce the size of the problem enough, then you can afford to be careful with the work you do on what remains. Then, you are careful by habit. 
+
+    There are skills that you must possess as an XP programmer that are not needed or at least not emphasized in other styles of development. Pair programming is a learnable skill, but one often at odds with the tendencies fo the sort of people who typically get into programming. Nerds aren't generally good at talking. 
+
+    Another skill needed by the extreme programmer is the habit of simplicity. WHen the customer says, "You must do this and this and this," you have to be prepared to discuss which of those items is really necessary and how much of each. Simplicity also extends to the code you write. A programmer with every last analysis and design pattern ready at hand will not be likely to succeed with XP. You can do a better job if you have more tools in your toolbox than if you have fewer, but it is much more important to have a handful of tools that you know when not to use, than to know everything about everything and risk using too much solution. 
+
+    You will needs sklls that are more technically oriented as well. You have to be able to program reasonably well. You have to be able to refactor, which is a skill with at least as much depth and subtlety as programming in the first place. You have to be able to unit test your code, which, like refactoring, requires taste and judgement to apply well. 
+
+    You have to be willing to set aside the feeling of individual ownership of some portion of the system in favor of shared ownershiop of the whole system. If someone changes code that you wrote, in whatever part of the system, you have to trust the changes and learn from them. Of course, if the changes are wrong-headed, you are responsible for making things better. 
+
+    Above all, you must be prepared to acknowledge your fears. Everybody is afraid-
+
+      - afraid of looking dumb
+      - afraid of being though useless
+      - afraid of growing obsolete
+      - afraid of not being good enough
+
+    Without courage, XP just simply doesn't work. You would spend all of your time trying to desperately not to fail. Instead, if you are willing, with the help of your tem, acknowledge your fears. Then you can get on with the business of belonging to a team having fun writing great software. 
+
+  *Customer*
+  
+    The customer is the other half oft he essential duality of extreme programming. THe programmer knows how to program. The customer knows what to program. Well, not at first, for course, but the customer is willing to learn just as much as the programmer is. 
+
+    The skill involved in being an XP customer: writing good stories, an attitude that will make you successful. You have to feel comfortable influencing a project without being able to control it. Forces outside your control will shape what acutally gets builg just as much as the decisions you make. 
+
+    You will have to make decisions. The best customers are those who will actually use the system being developed, but who also have a certain perspective on the problem to be solved. If you are a step or two removed from actually using the system, you will have to work extra hard to be sure that you accurately represent the needs of the real users. 
+
+    You will have to learn how to write stories. This may seem like an impossible task at first, but the team will give you the gift of copious feedback on the first few you write. 
+
+    you have to learn to write functional test. 
+
+    You have to demonstrate courage. THere is a way from where you are today to where you want to be. This team can help you find it, if you will help them find it. 
+
+
+  *Tester*
+
+    Since a lot testing responsibility lies on the shoulders of the programmers, the role of tester in an XP team is really focused on the customer. You are responsible for helping the customer choose and write functional tests. If the functional tests aren't par of the integration suite, you are responsible for running the functional tests regularly and posting the results in a prominent place. 
+
+    An XP tester is not a separate person, dedicated to breaking the system. 
+
+  *Tracker*
+
+    A tracker is the conscience of the team. Doing good estimates is a matter of practice and feedback. Keep an eye on the big picture. Halfway through an iteration you should be able to tell the team whether they are going to make it if they follow the current course or if they need to change something. 
+
+    You are the team historian, keep a log of functional test scores and defects. 
+
+    The skill needed most is the ability to collect the information you need without disturbing the whole process more than necessary. You want to disturb the process a little, to keep people aware of how much they actually spent on a task in a way they might not be aware of if you didn't ask. 
+
+  *Coach*
+
+    As a coach, you are responsible for the process as a whole. Everyone on an XP team is responsible for understanding their application of XP to some extent. 
+
+    The most difficult thing I have found about being a coach is that you work best wehn you work indirectly. If you see a mistake in the design, first you have to decide whether it is important enough that you should intervene at all. Every time you guide the team, you make them that much less self-reliant. 
+
+    Sometimes , however, you must be direct, direct to the point of rudeness. Confident, aggressive programmers are valuable precisely because they are confident and aggressive. However, this leaves them vulnerable to a certain kind of blindness, and the only cure is plain speaking. When you have let a situation deteriorate to the point that the gentle hand on the yoke can no longer work, you have to be prepared to grab the yoke with both hands and steer. 
+
+    The role of the coach diminishes as the team matures. In keeping with the principles of distributed control and accepted responsibility, "the process" should be everybody's responsiblity. Early in the shift to XP this is too much to ask any programmer. 
+
+  *Consultant*
+
+  
