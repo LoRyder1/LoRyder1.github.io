@@ -10,3 +10,6 @@ Another notable feature is the use of a virtual DOM. React creates an in-memory 
 
 React components are typically written in JSX, a JavaScript extension syntax allowing easy quoting of HTML and using HTML tag syntax to render subcomponents. 
 
+# Architecture Beyond HTML
+
+The basic architecture of React applies beyond rendering HTML in the browswer. 
