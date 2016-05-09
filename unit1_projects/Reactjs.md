@@ -37,3 +37,7 @@ The basic architecture of React applies beyond rendering HTML in the browswer.
   * Goal - abstract out the DOM in such a way that you don't deal directly with HTML Elements
   - new framworks force you to decompose the UI and interactions of your aplication. 
 
+  - react view are rendered using components that contain additional components specified as custom HTML tags
+  - React promises programmers a model in which subcomponents cannot directly affect enclosing components "data flows down"; efficient updating of the HTML document when data changes; and a clean separation between components on a modern single page. 
+  
+
