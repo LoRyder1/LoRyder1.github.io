@@ -23,3 +23,13 @@ The basic architecture of React applies beyond rendering HTML in the browswer.
 - Improves code maintability, 
 - Spending less time on maintaining code means more time spent on delivering business value for customers
 
+ **A little bit of theory**
+
+    - react objects are called components. Each of them may contain data and renders view in a declarative way - based only on current data state. 
+    - Each React component has 2 inputs: 
+      - props - shortcut of properties, these are mean to be immutable
+      - state - mutable
+    - After changing the state, React will automatically re-render the component to answer a new input
+    - All React components must implement render method which must return another React object or null. 
+
+    
