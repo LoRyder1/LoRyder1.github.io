@@ -39,5 +39,16 @@ The basic architecture of React applies beyond rendering HTML in the browswer.
 
   - react view are rendered using components that contain additional components specified as custom HTML tags
   - React promises programmers a model in which subcomponents cannot directly affect enclosing components "data flows down"; efficient updating of the HTML document when data changes; and a clean separation between components on a modern single page. 
-  
+
+  - Subcomponents cannot directly affect enclosing components "data flows down"
+  - efficient updating of HTML doc when changes occur
+  - clean separation between components
+
+  Why React? 
+  - V in MVC
+  - build large applications with data that changes over time
+
+  **Simple**
+  **Declarative**
+  **Composable Units**
 
