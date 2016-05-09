@@ -15,3 +15,11 @@ React components are typically written in JSX, a JavaScript extension syntax all
 # Architecture Beyond HTML
 
 The basic architecture of React applies beyond rendering HTML in the browswer. 
+
+#Rails and React
+
+- Programming interactive user interfaces using JavaScript might be a tough task. User calls some action and we need to update his view - manipulating DOM using tool like jQuery. 
+- Makes it possible to write really complex UI parts and easily compose with each other
+- Improves code maintability, 
+- Spending less time on maintaining code means more time spent on delivering business value for customers
+
