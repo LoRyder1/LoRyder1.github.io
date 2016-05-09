@@ -32,4 +32,8 @@ The basic architecture of React applies beyond rendering HTML in the browswer.
     - After changing the state, React will automatically re-render the component to answer a new input
     - All React components must implement render method which must return another React object or null. 
 
-    
+ **Differences**
+  diff between ppop JS frameworks = differences in their abstractions, thinking models, & terminology. 
+  * Goal - abstract out the DOM in such a way that you don't deal directly with HTML Elements
+  - new framworks force you to decompose the UI and interactions of your aplication. 
+
