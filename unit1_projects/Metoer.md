@@ -28,6 +28,10 @@ Every framework markets itself as a better and more enjoyable way to work. Meteo
 
 So While Meteor has its fair shar of 'magic' and conventions to make your life easier, you can still make choices based on your personal preferences. It's the best of both worlds. 
 
+# It's friendly to beginner developers
+
+What suprised me about Meteor was how quickly I was able to start building things that were actually kind of cool. Meteor is one of the easiest frameworks for beginners to learn. 
+
 
 
 
