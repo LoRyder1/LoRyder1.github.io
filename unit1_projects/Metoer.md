@@ -11,3 +11,7 @@ most companies are moving toward real-time web. It's inevitable that, sooner tha
 It is frustrating to use a variety of hats/languages. You have to think about front-end, back-end, and the database. Meteor allows you to just focus on JavaScript. 
 Another benefit to writing an entire application with one language. One line of code can run on both the client and the server and do different things in either environment. 
 
+# You can save a lot of time with smart packages
+
+You have the ability to run commands in a terminal, and Meteor adds one of its built-in 'smart packages' to the project. This particular package creates an accounts system that expects an email (or username) and password. Smart packages are not just for accounts though. There's a range of them already available, with more presumably on the way, and they all allow you to do something cool. 
+
