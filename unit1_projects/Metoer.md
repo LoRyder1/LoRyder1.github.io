@@ -32,7 +32,11 @@ So While Meteor has its fair shar of 'magic' and conventions to make your life e
 
 What suprised me about Meteor was how quickly I was able to start building things that were actually kind of cool. Meteor is one of the easiest frameworks for beginners to learn. 
 
+# It's ahead of the tech curve
 
+The web is becoming a real-time environment, but the shift won't happen purely based on the actions of the big companies with the big budgets. THe shift will happen as tools become available that allow small teams and individual developers to make real-time applications quickly and easily. Meteor is amongst the first wave of this tools and its 'all in one' approcah is surely going to make it a big player in the coming years. 
+
+Long term mission : to build a new platform for cloud applications that will become ubiquitous as previous platoforms such as Unix, HTTP, and the relational database
 
 
 
