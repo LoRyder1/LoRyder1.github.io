@@ -18,3 +18,25 @@ You have the ability to run commands in a terminal, and Meteor adds one of its b
 # The community is extremely supportive
 
 Nothing attracts me more to a new framework or technology than an active and vibrant community. Meteor community is already one of its greatest assets. THere's a ton of helpful resources that have spawned from people's love the framework
+
+# It's optimized for developer happiness
+
+Every framework markets itself as a better and more enjoyable way to work. Meteor's attention to detail in holding true to its promise of optimizing for developer happiness
+  -  built-in LiveReload feature so you won't have to manually refresh your browser
+  - the freedom to structure your projects however you want. There are standards you can follow but no strict rules or conventions
+  - The sheer modularity of Meteor that allows you to mix-and-match different components in case one part of Meteor isn't to your liking. 
+
+So While Meteor has its fair shar of 'magic' and conventions to make your life easier, you can still make choices based on your personal preferences. It's the best of both worlds. 
+
+
+
+
+
+
+
+
+
+
+
+
+
