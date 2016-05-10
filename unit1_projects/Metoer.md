@@ -38,6 +38,10 @@ The web is becoming a real-time environment, but the shift won't happen purely b
 
 Long term mission : to build a new platform for cloud applications that will become ubiquitous as previous platoforms such as Unix, HTTP, and the relational database
 
+# Conclusion
+
+Meteor is still young and many releases are still to come, they are coming big and quick, and a range of impressive Meteor-built apps are live and being used on the web. Your particular situation will determine whether or not a particular framework is the right fit for you and your creations, but every developer owes it to themselves to at least play with Meteor for a day or two. 
+
 
 
 
