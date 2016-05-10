@@ -15,3 +15,6 @@ Another benefit to writing an entire application with one language. One line of 
 
 You have the ability to run commands in a terminal, and Meteor adds one of its built-in 'smart packages' to the project. This particular package creates an accounts system that expects an email (or username) and password. Smart packages are not just for accounts though. There's a range of them already available, with more presumably on the way, and they all allow you to do something cool. 
 
+# The community is extremely supportive
+
+Nothing attracts me more to a new framework or technology than an active and vibrant community. Meteor community is already one of its greatest assets. THere's a ton of helpful resources that have spawned from people's love the framework
