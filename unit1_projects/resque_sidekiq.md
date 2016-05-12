@@ -47,7 +47,22 @@ Resque provides a Sintra application as a web interface to monitor the status of
   *stats*
   the stats tab displays overall stats of the Resque isntance as well as a listing of all the keys in Redis. Clicking on the keys will show the value of the key, so this provides a nice quick way to look inside Redis without having to connect and fire up the command line client
 
-  
+** Starting up the Workers**
+
+Resque provides rake tasks to start one or many workers. Add require 'resque/tasks' in the top of your Rakefile. Then you'll see them added to your available tasks:
+
+You can control these tasks with environment variables:
+  - queue controls which queue will be monitored
+  - count set the number of workers (only with resque:workers)
+
+**Why Use a Job**
+
+The total_word_count methods on Article and Comment are each implemented as such:
+
+The result is that each viewing of the dashboard causes a calculation involving each comment or article to be rerun. This is the sort of potentially slow operation that should A) be cached, and B) be calculated in the background. Introducing a Resque job into our application will make this change relatively simple and straightforward to implement. 
+
+
+
 
 
 
