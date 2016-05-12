@@ -38,6 +38,12 @@ Jobs should only need to access your models. If you're tempted to trigger a cont
 
 When a job is created it gets appended to a list data structure in Redis. A Resque worker will then try to process the job. 
 
+**Monitoring the Resque Queue**
+
+Resque provides a Sintra application as a web interface to monitor the status of your queues & workers and to view statistics of the instance
+
+
+
 
 
 
