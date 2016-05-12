@@ -27,4 +27,22 @@ A Resque job is any Ruby class or module with a perform class method.
 
 Resque can maintain multiple queues for different job types. By setting the @queue class instance variable, this worker will only look for jobs on the :sleep queue
 
+**Queueing a Job**
+
+Queuing a job in Resque looks like this: 
+  `Resque.enqueue(Sleeper, 5)`
+
+The parameters will be serialized as JSON and appended onto the REdis queue specified in the job class. The above class would be added to the sleep queue with the following JSON:
+
+Jobs should only need to access your models. If you're tempted to trigger a controller action, it's a sign that the controller action is holding domain logic which needs to be pushed down to the model.
+
+When a job is created it gets appended to a list data structure in Redis. A Resque worker will then try to process the job. 
+
+
+
+
+
+
+
+
 
