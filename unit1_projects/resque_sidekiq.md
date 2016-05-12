@@ -42,8 +42,12 @@ When a job is created it gets appended to a list data structure in Redis. A Resq
 
 Resque provides a Sintra application as a web interface to monitor the status of your queues & workers and to view statistics of the instance
 
+  *workers*
+  the workers tab shows a list of all workers and their status. clicking on a worker shows the details of the worker including the host, pid, when it was started, how many jobs its processed, and how many failures it has encountered
+  *stats*
+  the stats tab displays overall stats of the Resque isntance as well as a listing of all the keys in Redis. Clicking on the keys will show the value of the key, so this provides a nice quick way to look inside Redis without having to connect and fire up the command line client
 
-
+  
 
 
 
