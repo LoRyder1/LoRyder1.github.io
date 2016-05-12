@@ -18,3 +18,13 @@ Applications with good OO design make it easy to sen jobs to workers, poor OO ma
 
 While there are various solutions to provide a background job, we'll focus on using Resque, the most widely deployed queuing library. 
 
+**Setting up Resque**
+
+Setup Redis
+Create a fake delay
+Writing a Job
+A Resque job is any Ruby class or module with a perform class method. 
+
+Resque can maintain multiple queues for different job types. By setting the @queue class instance variable, this worker will only look for jobs on the :sleep queue
+
+
