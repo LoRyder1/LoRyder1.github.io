@@ -115,6 +115,10 @@ Sidekiq is a framework for background job processing. It allows you to scale you
 
   These two methods are quivalent and create a Hash which represents the job, serializes that Hash to JSON stirng and pushes that String into a queue in Redis. This means the arguments to your worker must be simple JSON datatypes (numbers, strings, boolean, array, hash). Complex Ruby objects (e.g. Date, Time, ActiveRecord models) will not serialize properly.
 
+  *Redis*
+  Redis provides data storage for Sidekiq. It holds all the job data along with runtime and historical data to power Sidekiq's Web UI.
+  
+
 
 
 
