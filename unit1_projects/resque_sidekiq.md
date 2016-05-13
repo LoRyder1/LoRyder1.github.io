@@ -121,6 +121,25 @@ Sidekiq is a framework for background job processing. It allows you to scale you
   *Server*
   Each Sidekiq server process pulls jobs from the queue in Redis and processing them. Like your web processes, Sidekiq boots Rails so your jobs and workers have the full Rails API, including Active Record, available for use. The server will instantiate the worker and call `perform` with the given arguments. Everything else is up to your code. 
 
+**Best Practices**
+
+1. Make you job parameters small and simple
+
+Don't save state to Sidekiq, save simple identifiers. Look up the objects once you actually need tem in your perform method
+`SomeWorker.perform_async(quote_id)`
+
+The arguemnts you pass to `perform_async` must be composed of simple JSON datatypes: string, integer, float, boolean, null, array and hash. 
+
+2. Make your job idempotent and transactional
+
+Idempotency means that your job can safely execute multiple times. For instance, with the error retry functionality, your job might be half-processed, throw an error, and then be re-executed over and over until it successfully completes. 
+
+3. Embrace Concurrency
+
+Sidekiq is designed for parallel execution so design your jobs so you can run lots of them in parallel. It has basic features for tuning concurrency (e.g. targeting a sidekiq process at a queue with a defined number of threads) but your system architecture is much simpler if you don't have such specialization
+
+You can use a connection pool to limit the overall number of connections to a resource-limited server if your Sidekiq processes are overwhelming it with traffic.
+
 
 
 
