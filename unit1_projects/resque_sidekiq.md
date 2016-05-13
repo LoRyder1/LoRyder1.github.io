@@ -69,6 +69,12 @@ The result is that each viewing of the dashboard causes a calculation involving 
 
 Background workers are necessary for almost all projects, and for some applications, background code can be just as important as the web facing code. 
 
+**Setting up Sidekiq**
+
+Sidekiq is a background processing library for Ruby. It adds some handy methods to our classes which make background processing quite simple.
+
+Sidekiq relies on Redis(a key-value store) to maintain a job queue. That's the first thing you'll need to install.
+
 
 
 
