@@ -82,7 +82,12 @@ Generally, your workers will be running under one of the following conditions:
   2. A certain amount of time after an aciton is performed
   3. Regularly, at set intervals
 
-  
+**Running a worker immediately after an action is performed**
+
+Sometimes the user will perform an action on our application that takes a considerable amount of time to complete. Some examples of this might be email, image processing, code highlighting. We don't want the user to sit there waiting for this aciton to complete, so we send it off to a background worker. 
+
+Sending email is probably the most common example. 
+
 
 
 
