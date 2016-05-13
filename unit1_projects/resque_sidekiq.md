@@ -75,6 +75,14 @@ Sidekiq is a background processing library for Ruby. It adds some handy methods 
 
 Sidekiq relies on Redis(a key-value store) to maintain a job queue. That's the first thing you'll need to install.
 
+**The types of Background Workers**
+
+Generally, your workers will be running under one of the following conditions:
+  1. Immediately after an action is performed
+  2. A certain amount of time after an aciton is performed
+  3. Regularly, at set intervals
+
+  
 
 
 
