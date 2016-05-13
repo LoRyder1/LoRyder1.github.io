@@ -61,7 +61,13 @@ The total_word_count methods on Article and Comment are each implemented as such
 
 The result is that each viewing of the dashboard causes a calculation involving each comment or article to be rerun. This is the sort of potentially slow operation that should A) be cached, and B) be calculated in the background. Introducing a Resque job into our application will make this change relatively simple and straightforward to implement. 
 
+# Sidekiq
 
+**Background Processing**
+
+**Writing Your First Background Worker**
+
+Background workers are necessary for almost all projects, and for some applications, background code can be just as important as the web facing code. 
 
 
 
