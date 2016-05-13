@@ -87,6 +87,17 @@ Generally, your workers will be running under one of the following conditions:
 Sometimes the user will perform an action on our application that takes a considerable amount of time to complete. Some examples of this might be email, image processing, code highlighting. We don't want the user to sit there waiting for this aciton to complete, so we send it off to a background worker. 
 
 Sending email is probably the most common example. 
+Run a time consuming class method call on an ActiveRecord object in a background worker
+
+**Running a worker a set amount of time after an action is performed**
+
+Delaying a worker by a set interval is quite similar to simply backgrounding it. 
+
+**Running a worker regularly, at set intervals**
+
+Sometimes, you'll want to set up a scheduled task to perform an action at a regular interval.
+
+
 
 
 
