@@ -97,7 +97,23 @@ Delaying a worker by a set interval is quite similar to simply backgrounding it.
 
 Sometimes, you'll want to set up a scheduled task to perform an action at a regular interval.
 
+Let's say, for example, you have a user registration process. If someone starts the registration, but doesn't complete it, you may want to sent them a reminder email. 
 
+**Big Summary**
+
+Sidekiq is a full-featured background processing framework for Ruby. It aims to be simple to integrate with any modern Rails application and much higher performance than other existing solutions.
+
+**Basics**
+
+Sidekiq is a framework for background job processing. It allows you to scale your application by performing work in the background. This requires three parts:
+
+  *Client*
+  The Sidekiq client runs in your web application process (typically a pum or passenger process) and allows you to create jobs for processing later. There are two ways to create a job in your application code: 
+
+  `MyWorker.perform_async(1,2,3)`
+  `Sidekiq::Client.push('class' => MyWorker, 'args' => [1,2,3]) `#Lower-level generic API
+
+  These two methods are quivalent and create a Hash which represents the job, serializes that Hash to JSON stirng and pushes that String into a queue in Redis. This means the arguments to your worker must be simple JSON datatypes (numbers, strings, boolean, array, hash). Complex Ruby objects (e.g. Date, Time, ActiveRecord models) will not serialize properly.
 
 
 
