@@ -117,7 +117,9 @@ Sidekiq is a framework for background job processing. It allows you to scale you
 
   *Redis*
   Redis provides data storage for Sidekiq. It holds all the job data along with runtime and historical data to power Sidekiq's Web UI.
-  
+
+  *Server*
+  Each Sidekiq server process pulls jobs from the queue in Redis and processing them. Like your web processes, Sidekiq boots Rails so your jobs and workers have the full Rails API, including Active Record, available for use. The server will instantiate the worker and call `perform` with the given arguments. Everything else is up to your code. 
 
 
 
