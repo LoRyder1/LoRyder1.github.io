@@ -150,6 +150,23 @@ You can also set the Redis url using environment variables. This makes configuri
 
 Set the `REDIS_PROVIDER` env var to the name of the env var containing the Redis server url. You may also use the generic REDIS_ULR which may be set to your own private Redis server. 
 
+**Complete Control**
+
+If you need complete control when creating the Redis connection, e.g. if you are using redis-failover or Redis Sentinel, you can provide Sidekiq with a pre-built connection pool:
+
+`
+redis_conn = proc {
+  Redis.new # do anything you want here
+}
+Sidekiq.configure_client do |config|
+  config.redis = ConnectionPool.new(size: 5, &redis_conn)
+end
+Sidekiq.configure_server do |config|
+  config.redis = ConnectionPool.new(size: 25, &redis_conn)
+end
+`
+
+Note the size tuning. you'll wnat to ensure that you have plenty of connections for the threads running in each process. Connections are created on demand so it's okay to specify a larger size (e.g. 20-30) if you aren't sure. A Sidekiq server process requires at least (concurrency +2) connections.
 
 
 
