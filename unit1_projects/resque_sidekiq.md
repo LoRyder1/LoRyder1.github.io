@@ -168,6 +168,10 @@ end
 
 Note the size tuning. you'll wnat to ensure that you have plenty of connections for the threads running in each process. Connections are created on demand so it's okay to specify a larger size (e.g. 20-30) if you aren't sure. A Sidekiq server process requires at least (concurrency +2) connections.
 
+**Memory**
+
+Redis runs best when all data fits in memory. Many peopl use Redis as a cache but it's important that Sidekiq be run against a Redis instance that is not configured as a cache but as a persistent store. You should use the noeviction policy so Redis doesn't drop Sidekiq's data silently. I suggest using two separate Redis instances, each configured appropriately, if you wish to use Redis for caching and Sidekiq.
+
 
 
 
