@@ -140,6 +140,9 @@ Sidekiq is designed for parallel execution so design your jobs so you can run lo
 
 You can use a connection pool to limit the overall number of connections to a resource-limited server if your Sidekiq processes are overwhelming it with traffic.
 
+**Using Redis**
+
+Sidekiq uses Redis to store all of its job and operational data. By default, Sidekiq tries to connect to Redis at localhost:6379. This typically works great during development but needs tuning in production. It is important to note that to configure the location of Redis, you must define both the `Sidekiq.configure_server` and `Sidekiq.configure_client` blocks. To do this put the following code into `config/initializers/sidekiq.rb`
 
 
 
