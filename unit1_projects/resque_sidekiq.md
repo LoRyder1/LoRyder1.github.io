@@ -144,6 +144,14 @@ You can use a connection pool to limit the overall number of connections to a re
 
 Sidekiq uses Redis to store all of its job and operational data. By default, Sidekiq tries to connect to Redis at localhost:6379. This typically works great during development but needs tuning in production. It is important to note that to configure the location of Redis, you must define both the `Sidekiq.configure_server` and `Sidekiq.configure_client` blocks. To do this put the following code into `config/initializers/sidekiq.rb`
 
+**Using an ENV variable**
+
+You can also set the Redis url using environment variables. This makes configuring Sidekiq on Heroku dead simple.
+
+Set the `REDIS_PROVIDER` env var to the name of the env var containing the Redis server url. You may also use the generic REDIS_ULR which may be set to your own private Redis server. 
+
+
+
 
 
 
