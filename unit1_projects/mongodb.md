@@ -23,3 +23,13 @@ Any relational database has a typical schema design that shows number of tables 
   - Conversion / mapping of application objects to database objects not needed
   - Uses internal memory for storing the (windowed) working set, enabling faster access of data
 
+#Why use MongoDB
+
+  - Document Oriented Storage: Data is stored in the form of JSON style documents
+  - Index on any attribute
+  - Replication & High Availability
+  - Auto-Sharding
+  - Rich Queries
+  - Fast In-Place Updates
+  - Professional Support By MongoDB
+
