@@ -33,3 +33,41 @@ Any relational database has a typical schema design that shows number of tables 
   - Fast In-Place Updates
   - Professional Support By MongoDB
 
+# WHere should you use MongoDB
+
+  - Big Data
+  - Content Management and Delivery
+  - Mobile and Social Infrastructure
+  - User Data Management
+  - Data Hub
+
+# Main features
+
+**Ad hoc queries**
+  mongodb supports field, range queries, regex searches
+  
+**Indexing**
+  any field in mongodb doc can be indexed
+**Replication**
+  high availability with replica sets
+**Load balancing**
+  mongo db scales horizontally using sharding. the user chooses a shard key, which determines how the data in a collection will be distributed
+**File storage**
+  mongodb can be used as a file system, taking advantage of load balancing and data replication features over multiple machines for storing files
+**Aggregation**
+  MapReduce can be used for batch processing of data and aggregation operations
+**Server-side JavaScript execution**
+  JavaScript can be used in queries, aggregation functions (such as MapReduce), and sent directly to the database to be executed
+**Capped collections**
+  mongodb supports fixed-size collections called capped collections
+
+A database shard is a horizontal partition of data in a database or search engine. Each individual partition is referred to as a shard or database shard. Each shard is held on a separate database server instance, to spread load. 
+
+
+
+
+
+
+
+
+
