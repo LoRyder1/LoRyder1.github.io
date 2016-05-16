@@ -63,7 +63,9 @@ Any relational database has a typical schema design that shows number of tables 
 
 A database shard is a horizontal partition of data in a database or search engine. Each individual partition is referred to as a shard or database shard. Each shard is held on a separate database server instance, to spread load. 
 
+Express.js
 
+- express.js is a node.js web application server framework, designed for building single-page, multi-page, and hybrid web applications. It is the de facto standard server framework for node.js. It was inspired by Sinatra meaning that it is relatively minimal with many features available as plugins
 
 
 
