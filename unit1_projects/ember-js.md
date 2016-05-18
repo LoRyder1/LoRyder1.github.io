@@ -26,4 +26,24 @@ Five Key Concepts
   **Models**
     Every route has an associate model, containing the data associated with the current state of the application. While one can use jQuery to load JSON objects from a server adn use those objects as models, most applications use a model library such as Ember Data to handle this. 
 
-  
+  **Templates**
+    Templates are used to build the application's HTML and are written with teh HTMLBars templating language. (HTMLBars is a variation of the Handlebars that builds DOM elements rather than a String.)
+
+  **Components**
+    A component is a custom HTML tag, Behaviour is implemented using JavaScript and its appearance is defined using HTMLBars templates. Components "own" their data. They can also be nested and can communicate with their parent components through actions (events). Other component libraries such as Polymer can also be used with Ember. 
+
+  **Services**
+    Services are just singleton objects to hold long-lived data such as user sessions.
+
+Ember also provides dependency injection, declarative two-way data binding computed properties, and automatically-updating templates. 
+
+
+
+
+
+
+
+
+
+
+
