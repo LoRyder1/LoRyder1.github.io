@@ -11,5 +11,7 @@
 
 **Stability without stagnation**
   This is the idea that backward compatibility is important and can be maintained while still innovaitng and evolving the framework.
-  
+
+**Future web standards foresight**
+  Ember has been an early adopter and pioneer of many standards around Javascript and the web including promises, web components and ES6 syntax. Yehuda Katz, one of Ember's cofounders, is a member on TC39, which is the committee responsible for future versions of the Javascript language. 
 
