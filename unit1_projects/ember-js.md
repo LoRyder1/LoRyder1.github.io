@@ -37,6 +37,26 @@ Five Key Concepts
 
 Ember also provides dependency injection, declarative two-way data binding computed properties, and automatically-updating templates. 
 
+#Common pitfalls with Ember
+
+**Ember isn't Rails**
+
+**Where does it go: view or controller?**
+
+**Ember isn't jQuery, either**
+
+**Don't write code you don't need**
+
+**Properties adn observes**
+
+**You don't need Ember data**
+
+**Rails is your API, not your web server**
+
+**Not using promises**
+
+**Not using Ember inspector**
+
 
 
 
