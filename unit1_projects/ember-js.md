@@ -9,5 +9,7 @@
 **More productive out of the box**
   Ember is one component of a set of tools that work together to provide a complete development stack. The aim of these tools is to make the developer productive immediately. For example Ember CLI, provides a standard application structure and buil pipeline. It also has a pluggable architecture and over two thousand addons to enhance and extend it. 
 
-
+**Stability without stagnation**
+  This is the idea that backward compatibility is important and can be maintained while still innovaitng and evolving the framework.
+  
 
