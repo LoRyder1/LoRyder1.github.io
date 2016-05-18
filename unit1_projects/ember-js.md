@@ -6,5 +6,8 @@
 **Focus on ambitious web applications**
   Ember sets out to provide a wholesale solution to the client-side application problem. This is in contrast to many Javascript frameworks that start by providing a solution to the V in MVC, and attempt to grow from there. 
 
+**More productive out of the box**
+  Ember is one component of a set of tools that work together to provide a complete development stack. The aim of these tools is to make the developer productive immediately. For example Ember CLI, provides a standard application structure and buil pipeline. It also has a pluggable architecture and over two thousand addons to enhance and extend it. 
+
 
 
