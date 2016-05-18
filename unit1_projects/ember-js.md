@@ -15,3 +15,15 @@
 **Future web standards foresight**
   Ember has been an early adopter and pioneer of many standards around Javascript and the web including promises, web components and ES6 syntax. Yehuda Katz, one of Ember's cofounders, is a member on TC39, which is the committee responsible for future versions of the Javascript language. 
 
+Like Ruby on Rails, Ember follows convention over configuration(CoC), and the Don't Repeat Yourself(DRY) principle. It has been described as a highly opinionated framework built to be very flexible. 
+
+#Basic Concepts
+
+Five Key Concepts
+  **Routes**
+    In Ember, the state of an application is represented by a URL. Each URL has a corresponding route object that controls what is visible to the user. 
+
+  **Models**
+    Every route has an associate model, containing the data associated with the current state of the application. While one can use jQuery to load JSON objects from a server adn use those objects as models, most applications use a model library such as Ember Data to handle this. 
+
+  
