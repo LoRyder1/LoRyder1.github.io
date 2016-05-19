@@ -15,3 +15,12 @@
 **think about the defaults**
 
 
+Light - create depth using light and shadow
+
+Color - use heat to manage focus. 
+  - Cold colors - blue and green shades.
+  - Warm colors - red and yellow
+  Warmer colors expand when placed next to colder colors, they literally spill out and take dominance. 
+
+Contrast - attract attention with higher contrast
+  Higher contrast items stand out - they catch your eye.
