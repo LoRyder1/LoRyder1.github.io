@@ -27,3 +27,7 @@ Kafka can be used for:
   - Log Aggregation
   - Stream Processing
   - Event Sourcing
+
+Message queues and mailboxes are software-engineering components used for inter-process communication (IPC), or for inter-thread communication within the same process. They use a queue for messaging - the passing of control or of content. Group communication systems provide similar kinds of functionality. 
+
+The message queue paradigm is a sibling fo the publisher/subscriber pattern, and is typically one part of a larger message-oriented middleware system. Most messaging systems support both the publisher/subscriber and message queue models in their API> 
