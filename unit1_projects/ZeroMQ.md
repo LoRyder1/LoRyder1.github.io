@@ -32,6 +32,18 @@ The way these sockets work depend on the type of socket chosen. And flow of mess
 
 - Exclusive Pair Pattern: Used for connecting two peers together, forming a pair. 
 
+**Simple Messaging and Use-cases**
+
+- For simple communications between a server and a client
+- Checking information and requesting updates
+- Sending checks and updates to the server
+- Echo or ping/pong implementations
+
+ex: publish/subscribe pattern is used for evenly distributed messages across varoius consumers. Automatic updates for scoreboards and news can be considered as possible areas to use this solution
+ex: sending two different messages - simultaneously - inteded for different subscribers. 
+ex: pipelining pattern can be used in cases where there are list of queued items need to be routed (i.e. pushed in line) for the one asking for it (i.e. those who pull).
+
+
 
 
 
