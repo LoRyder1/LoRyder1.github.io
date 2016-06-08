@@ -14,3 +14,6 @@ If you have past experience with other application messaging soultions such as R
 
 ZeroMQ can be considered the backbone for implementing the actual communication layer of your application. 
 
+**Programming with ZeroMQ**
+
+ZeroMQ as a library works through sockets by following certain network communication patterns. It is designed to work asynchronously, and that's where the MQ suffix to its name comes - from thread queuing messages before sending them. 
