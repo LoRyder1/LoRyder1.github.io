@@ -16,3 +16,11 @@ For example, let's say you have custom JavaScript that you've written. You put t
 // my custom code here
 })
 `
+
+**Specifying Processors through File Extensions**
+
+Sprockets uses the filename extensions to determine what processors to run your file and in what order. For example if you have a file:
+`application.scss`
+Then Sprockets will by default run the sass processor (which implements scss). The output file will be converted to css. You can specify multiple processors by specifying multiple file extensions. For example you can use Ruby's ERB template language to embed conent in your doc before running the sass processor. To accomplish this you would need to name your file 
+`application.scss.erb`
+Processors are run from your right to left, so in the above example the processor associated with erb will be run before the processor associated with scss extension. For a description of the processors that Sprockets has by default see the 'default processors' section below. Other libraries may register additional processors. 
