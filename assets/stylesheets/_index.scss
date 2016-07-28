@@ -1,0 +1,150 @@
+#index-nonvid {
+
+  #index-top {
+
+    #index-desc {
+      h2 {
+        font-size: 2.5em;
+        font-weight: 300;
+      }
+
+      #arrow-down {
+        color: $dark-gray;
+        margin: 1em auto 0 auto;
+      }
+    }
+
+  }
+
+  #index-bottom {
+    background-color: white;
+
+    #about, #work {
+      padding: 6em 0 4em 0;
+
+      h3 {
+        color: $dark-gray;
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 1em;
+      }
+    }
+
+    #about {
+      #about-desc {
+        margin: 0 auto 2em auto;
+        font-size: 1.25em;
+        text-align: center;
+
+        a {
+          text-decoration: none;
+          color: $light-gray;
+          &:hover {
+            text-decoration: underline;
+            transition: .3s;
+          }
+        }
+      }
+
+      #resume {
+        display: block;
+        text-decoration: none;
+
+        #resume-box {
+          margin: 2em auto 0 auto;
+          border: 1px solid $light-gray;
+          color: $light-gray;
+          font-size: 1em;
+          text-align: center;
+          padding: 1em 2em;
+
+          &:hover {
+            border: 1px solid $dark-gray;
+            color: $dark-gray;
+            transition: .3s;
+          }
+        }
+      }
+    }
+
+    #work {
+      margin-bottom: 2em;
+
+      #work-examples-container {
+        margin: 0 auto;
+
+        li {
+          display: inline;
+        }
+
+        .work-example {
+          vertical-align: top;
+          word-wrap: break-word;
+          
+          h4 {
+            text-align: center;
+            margin-bottom: .5em;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 1.25em;
+            color: $dark-gray;
+          }
+          .work-example-links {
+            text-align: center;
+            font-weight: 300;
+            color: $light-gray;
+            margin-bottom: 1em;
+          }
+
+          .work-example-tech {
+            font-weight: 300;
+
+            .example-built-with {
+              font-weight: 400;
+            }
+          }
+
+          .work-example-demo, .work-example-code {
+            text-decoration: none;
+            color: $light-gray;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+
+          .work-example-description {
+            margin-top: 2em;
+            text-align: justify;
+            font-weight: 300;
+          }
+
+        }
+      }
+
+      #work-open-source {
+        margin: 4em auto 2em auto;
+
+        h4 {
+          text-align: center;
+          font-weight: 400;
+          font-size: 1.25em;
+        }
+
+        #open-source-list {
+          padding-top: 1em;
+          .open-source-list-item {
+            a { 
+              font-weight: 400;
+              color: $dark-gray;
+              text-decoration: none;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
