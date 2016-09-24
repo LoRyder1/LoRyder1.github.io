@@ -39,3 +39,11 @@ Packet switching is used to optimize the use of the channel capacity available i
 A network switch(also called switching hub, bridging hub, officially MAC bridge) is a computer networking device that connects devices together on a computer network, by using packet switching to receive, process and forward data to the destination device. Unlike less advanced network hubs, a network switch forwards data only to one or multiple devices that need to receive it, rather than broadcasting the same data out of each of its ports. 
 
 A network switch is a multiport network bridge that uses hardware addresses to process and forward data at the data link layer(layer2) of the OSI model. Switches can also process data at the network layer(layer 3) by additionally incorporating routing functionality that most commonly uses IP addresses to perform packet forwarding; such switches are commonly known as layer-3 switches or multilayer switches. Beside most commonly used Ethernet switches, they exist for various types of networks, including Fibre Channel, Asynchronous Transfer Mode, and InfiniBand.
+
+#VLAN 
+
+A virtual LAN (VLAN) is any broadcast domain that is partitioned and isolated in a computer network at the data link layer (OSI layer 2). LAN is an abbreviation for local are network. 
+
+To subdivide a network into virtual LANs, one configures network equipment. Simpler equipment can partition only per physical port (if at all), in which case each VLAN is connected with a dedicated network cable. More sophisticated devices can mark packets through VLAN tagging, so that a single interconnect(trunk) may be used to transport data for multiple VLANs. Since VLANS shar bandwidth, a VLAN trunk can use link aggregation, quality-of-service prioritization, or both to route data efficiently. 
+
+VLANs allow network administrators to group hosts together even if the hosts are not on the same network switch. This can greatly simplify network design and deployment, because VLAN membership can be configured through software. Without VLANs, grouping hosts according to their resource eneds necessitates the labor of relocating nodes or rewiring data links. 
