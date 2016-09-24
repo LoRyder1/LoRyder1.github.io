@@ -131,3 +131,11 @@ A distance-vector routing protocol requires that a router informs its neighbors 
 #Intermediate System to Intermediate System 
 
 IS-IS is a routing protocol designed to move information efficiently within a computer network, a group of physically connected computers or similar devices. It accomplished this by determining teh best route for datagrams through a packet-switched network. 
+
+#Interior Gateway Protocol
+
+IGP is a type of protocol used for exchanging routing information between gateways (commonly routers) within an autonomous system (for example, a system of corporate local area networks). This routing information can then be used to route network-layer protocols like IP. 
+
+Internet gateway protocols can be divided into two categories: distance vector routing protocols and link-state routing protocols. Specific examples of IGP protocols include PSPF, RIP, and IS-IS. 
+
+By contrast, exterior gateway protocols are used to exchange routing information between autonomous systems and rely on IGPs to resolve routes within an autonomous system. 
