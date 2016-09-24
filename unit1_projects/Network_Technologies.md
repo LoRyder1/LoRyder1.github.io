@@ -120,3 +120,6 @@ Since its commercial release, Ethernet has retained a good degree of backward co
 
 OSPF is a routing protocol for Internet Protocol(IP) networks. It uses a link state routing (LSR) algorithm and falls into the group of interior routing protocols, operatin within a single autonomous system(AS). OSPF is perhaps the most widely used interior gateway protocol(IGP) in large enterprise networks. Intermediate System to Intermediate System (IS-IS), another link-state dynamic routing protocol, is more common in large service provider networks. The most widely used exterior gateway protocol is the Border Gateway Protocol (BGP), the principal routing protocol between autonomous systems on the Internet. 
 
+#Link-state routing protocol
+
+Link state routing protocols are one of the two main classes of routing protocols used in packet switching networks for computer communications, the other being distance-vector routing protocols. This contrasts with distance-vector routing protocols, which work by having each node share its routing table with its neighbours. In a link-state protocol the only information passed between nodes is connectivity related. Link-state algorithms are sometimes characterized informally as each router, "telling teh world about its neighbours".
