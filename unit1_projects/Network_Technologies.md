@@ -25,3 +25,13 @@ Routing in a more narrow sense of the term, is often contrasted with bridging in
 A formatted unit of data carried by a packet-switched network. Computer communications links that do not support packets, such as traditional point-to-point telecommunications links, simply transmit data as a bit stream. When data is formatted into packets, packet switching is possible and the bandwidth of the communication medium can be better shared among users than with circuit switching. 
 
 A packet consists fo control information and user data, which is also known as the payload. Control information provides data for delivering the payload, for example: source and destination network addresses, error detection codes, and sequencing information. Typically, control information is found in packet headers and trailers. 
+
+#Packet switching
+
+Packet switching is a digital networking communications method that groups all transmitted data into suitably sized blocks, called packets, which are transmitted via a medium that may be shared by multiple simultaneous communications sessions. Packet switching increases network efficiency, robustness and enables technological convergence of many applications operating on the same network.
+
+Packets are composed of a header and payload. Information in the header is used by networking hardware to direct the packet to its destination where the payload is extracted and used by application software. 
+
+Packet switching is used to optimize the use of the channel capacity available in digital telecommunications networks such as computer networks, to minimize the transmission latency (the time it takes for data to pass across the network), and to increase robustness of communication. 
+
+
