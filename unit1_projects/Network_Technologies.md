@@ -47,3 +47,8 @@ A virtual LAN (VLAN) is any broadcast domain that is partitioned and isolated in
 To subdivide a network into virtual LANs, one configures network equipment. Simpler equipment can partition only per physical port (if at all), in which case each VLAN is connected with a dedicated network cable. More sophisticated devices can mark packets through VLAN tagging, so that a single interconnect(trunk) may be used to transport data for multiple VLANs. Since VLANS shar bandwidth, a VLAN trunk can use link aggregation, quality-of-service prioritization, or both to route data efficiently. 
 
 VLANs allow network administrators to group hosts together even if the hosts are not on the same network switch. This can greatly simplify network design and deployment, because VLAN membership can be configured through software. Without VLANs, grouping hosts according to their resource eneds necessitates the labor of relocating nodes or rewiring data links. 
+
+#Link aggregation
+
+Link aggregation applies to various methods of combining multiple network connections in parallel in order to increase throughput beyond what a single connection could sustain, and to provide redundancy in case one of the links should fail. A LAG (Link Aggregation Group) combines a number of physical ports together to make a single high-bandwidth data path, so as to implement the traffic load sharing among the member ports in the group and to enhance the connection reliability. 
+
