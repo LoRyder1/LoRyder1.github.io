@@ -127,3 +127,7 @@ Link state routing protocols are one of the two main classes of routing protocol
 #Distance-vector routing protocola
 
 A distance-vector routing protocol requires that a router informs its neighbors of topology changes periodically. Compared to link-state protocols, which require a router to inform all the nodes in a network of topology changes, distance-vector routing protocols have less computational complexity and message overhead. 
+
+#Intermediate System to Intermediate System 
+
+IS-IS is a routing protocol designed to move information efficiently within a computer network, a group of physically connected computers or similar devices. It accomplished this by determining teh best route for datagrams through a packet-switched network. 
