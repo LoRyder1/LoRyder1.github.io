@@ -93,3 +93,7 @@ SPB is a computer networking technology intended to simplify the creation and co
 #Network topology
 
 Network toplogy is the arrangement of the various elements (links, nodes, etc) of a computer network. Essentially, it is the topological structure of a network adn may be depicted physically or logically, Physical topology is the placement of the various components of a network, including device location and cable installation, while logical topology illustrates how data flows within a network, regardless of its physical design. Distances between nodes, physical interconnections, transmission rates, or signal types may differ between two networks, yet their topologies may be identical. 
+
+#Network address translation
+
+Network address translation is a method of remapping one IP address space into another by modifying network address information in Internet Protocol(IP) datagram packet headers while they are in transit across a traffic routing device. The technique was originally used for eas of rerouting traffic in IP networks without renumbering every host. It has become a popular and essential tool in conserving global address space allocations in face of IPv4 address exhaustion by sharing one Internet-routable IP address of a NAT gateway for an entire private network. 
