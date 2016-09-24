@@ -97,3 +97,11 @@ Network toplogy is the arrangement of the various elements (links, nodes, etc) o
 #Network address translation
 
 Network address translation is a method of remapping one IP address space into another by modifying network address information in Internet Protocol(IP) datagram packet headers while they are in transit across a traffic routing device. The technique was originally used for eas of rerouting traffic in IP networks without renumbering every host. It has become a popular and essential tool in conserving global address space allocations in face of IPv4 address exhaustion by sharing one Internet-routable IP address of a NAT gateway for an entire private network. 
+
+#Address Resolution Protocol(ARP)
+
+ARP is a telecommunication protocol used for resolution of Internet layer addresses into link layer addresses, a critical function in multiple access networks. 
+
+ARP is used for mapping a network address(e.g. an IPv4 address) to a physical address like an Ethernet address (also named a MAC address). ARP has been implemented with many combinations of network and data link layer technologies, like IPv4, etc. 
+
+ARP is a request and reply protocol that runs encapsulated by the line protocol. It is communicated within the boundaries of a single network, never routed across internetwork nodes. This property places ARP into the Link Layer of the Internet Protocol Suite, while in the Open Systems Interconnection(OSI) model, it is often described as residing in Layer 3, being encapsulated by Layer 2 protocols. However, ARP was not developed in the OSI framework. 
