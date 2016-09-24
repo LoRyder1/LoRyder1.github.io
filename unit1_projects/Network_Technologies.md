@@ -34,4 +34,8 @@ Packets are composed of a header and payload. Information in the header is used 
 
 Packet switching is used to optimize the use of the channel capacity available in digital telecommunications networks such as computer networks, to minimize the transmission latency (the time it takes for data to pass across the network), and to increase robustness of communication. 
 
+#Network Switch
 
+A network switch(also called switching hub, bridging hub, officially MAC bridge) is a computer networking device that connects devices together on a computer network, by using packet switching to receive, process and forward data to the destination device. Unlike less advanced network hubs, a network switch forwards data only to one or multiple devices that need to receive it, rather than broadcasting the same data out of each of its ports. 
+
+A network switch is a multiport network bridge that uses hardware addresses to process and forward data at the data link layer(layer2) of the OSI model. Switches can also process data at the network layer(layer 3) by additionally incorporating routing functionality that most commonly uses IP addresses to perform packet forwarding; such switches are commonly known as layer-3 switches or multilayer switches. Beside most commonly used Ethernet switches, they exist for various types of networks, including Fibre Channel, Asynchronous Transfer Mode, and InfiniBand.
