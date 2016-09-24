@@ -89,3 +89,7 @@ In some cases, a broadcast storm can be instigated for the purpose of a denial o
 #Shortest Path Bridging
 
 SPB is a computer networking technology intended to simplify the creation and configuration of networks, while enabling multipath routing. It is the replacement for the older spanning tree protocols. These blocked any redundant paths that could result in a layer 2 loop, whereas SPB allows all paths to be active with multiple equal cost paths, provides much larger layer 2 topologies, supports faster convergence times, and improves the efficiency by allowing traffic to load share across all paths of a mesh network. It is designed to virtually eliminate human error during configuration and preserves the plug-and-play nature that established Ethernet as the de facto protocol at Layer 2. 
+
+#Network topology
+
+Network toplogy is the arrangement of the various elements (links, nodes, etc) of a computer network. Essentially, it is the topological structure of a network adn may be depicted physically or logically, Physical topology is the placement of the various components of a network, including device location and cable installation, while logical topology illustrates how data flows within a network, regardless of its physical design. Distances between nodes, physical interconnections, transmission rates, or signal types may differ between two networks, yet their topologies may be identical. 
