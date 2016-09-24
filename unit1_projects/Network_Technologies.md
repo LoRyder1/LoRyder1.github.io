@@ -52,3 +52,10 @@ VLANs allow network administrators to group hosts together even if the hosts are
 
 Link aggregation applies to various methods of combining multiple network connections in parallel in order to increase throughput beyond what a single connection could sustain, and to provide redundancy in case one of the links should fail. A LAG (Link Aggregation Group) combines a number of physical ports together to make a single high-bandwidth data path, so as to implement the traffic load sharing among the member ports in the group and to enhance the connection reliability. 
 
+#Quality of service
+
+Quality of service(QoS) is the overall performance of a telephony or computer network, particularly the performance seen by the users of the network. To quantitatively measure quality of service, several related aspects of network service are often considered, such as error rates, bit rate, throughput, transmission delay, availability, jitter. 
+
+In computer networking, quality of service refers to traffic prioritization and resource reservation control mechanisms rather than the achieved service quality. Quality of service is the ability to provide different priority to different applications, users, or data flows, or to guarantee a certain level of performance to a data flow. 
+
+Quality of service is particularly important for the tranport of traffic with special requirements. In particular, developers have introduced technology to allow computer networks to become as useful as telephone networks for audio conversations, as well as supporting new applicaitons with even stricter service demands. 
