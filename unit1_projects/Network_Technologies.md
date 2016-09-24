@@ -139,3 +139,9 @@ IGP is a type of protocol used for exchanging routing information between gatewa
 Internet gateway protocols can be divided into two categories: distance vector routing protocols and link-state routing protocols. Specific examples of IGP protocols include PSPF, RIP, and IS-IS. 
 
 By contrast, exterior gateway protocols are used to exchange routing information between autonomous systems and rely on IGPs to resolve routes within an autonomous system. 
+
+#Border Gateway Protocol 
+
+BGP is a standardized exterior gateway protocol designed to exchange routing and reachability information among autonomous systems (AS) on the Internet. The protocol is often classified as a path vector protocol but is sometimes also classed as a distance-vector protocol. THe Border Gateway Protocol makes routing decisions based on paths, network policies, or rule-sets configured by a network administrator and is involved in making core routing decisions
+
+BGP may be used for routing within an autonomous system, In this application it is referred to as Interior Border Gateway Protocol, Internal BGP, or iBGP. In contrast. The Internet application of the protocol may be referred to as Exterior Border Gateway Protocol, External BGP, or EBGP. 
