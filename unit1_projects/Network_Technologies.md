@@ -123,3 +123,7 @@ OSPF is a routing protocol for Internet Protocol(IP) networks. It uses a link st
 #Link-state routing protocol
 
 Link state routing protocols are one of the two main classes of routing protocols used in packet switching networks for computer communications, the other being distance-vector routing protocols. This contrasts with distance-vector routing protocols, which work by having each node share its routing table with its neighbours. In a link-state protocol the only information passed between nodes is connectivity related. Link-state algorithms are sometimes characterized informally as each router, "telling teh world about its neighbours".
+
+#Distance-vector routing protocola
+
+A distance-vector routing protocol requires that a router informs its neighbors of topology changes periodically. Compared to link-state protocols, which require a router to inform all the nodes in a network of topology changes, distance-vector routing protocols have less computational complexity and message overhead. 
