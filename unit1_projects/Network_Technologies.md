@@ -71,3 +71,14 @@ The 802.11 family consists of a series of half-duplex over the air modulation te
 #TCP - Transmission Control Protocol
 
 TCP is one of the main protocols of the Internet protocol suite. It originated in the initial network implementation in which it complemented the Internet Protocol(IP). Therefore, teh entire suite is commonly referred to as TCP/IP. TCP provides reliable, ordered, and error-checked delivery of a stream of octets between applications running on hosts communicating by an IP network. Major Internet applications such as the World Wide Web, email, remote administration adn file transfer rely on TCP. Applications that do not require reliable data stream service may use the User Datagram Protocol (UDP), which provides a connectionless datagram service thtat emphasizes reduced latency over reliability. 
+
+#Spanning Tree Protocol 
+
+STP is a network protocol that builds a logical loop-free topology for Ethernet networks. THe basic function of STP is to prevent bridge loops and broadcast radiation that results from them. Spanning tree also allows a network design to include spare(redundant) links to provide automatic backup paths if an active link fails. This is done without the danger of bridge loops, or the need for manual enabling or disabling of these backup links. 
+
+As the name suggests, STP creates a spanning tree within a network of connected layer-2 bridges, and disables those links that not part of the spanning tree, leaving a single acive path between any two network nodes.
+
+**switching loop** or bridge loop occurs in computer networks when there is more than one Layer 2(OSI model) paht between two endpoints(e.g. multiple connections between two network switches or two ports on the same switch connected to each other). The loop creates broadcast storms as broadcasts and multicasts are forwarded by switches out every port, the switch or switches will repeatedly rebroadcast the broadcast messages flooding the network. Since the Layer 2 header does not support a time to live (TTL) value, if a frame is sent into a looped topology, it can loop forever. 
+
+A physical topology that contains switching or bridge loops is attractive for redundancy reasons, yet a switched network must not have loops. The solution is to allow physical loops, but create a loop-free logical topology using the shortest path bridging (SPB) protocol or the older spanning tree protocols(STP) on the network switches.  
+
