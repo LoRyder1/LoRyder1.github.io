@@ -20,3 +20,8 @@ The first and most obvious route: use it as a computer. It definitely won't be t
   - Digital photo frame
   - Smart/Magic Mirror
   - etc
+
+#What is the Pi not so well suited for?
+
+For one the Pi is a full computer and while it does not consume much power for a computer, it can be overkill compared to an Arduino for simple hardware projects tha don't require running an OS, GUI or networking. 
+The Pi is not without a few tradeoffs. Ethernet networking (which is a 100Mbps link) and disk access (if you attach any storage device via USB) all go throught the USB bus. So any simultaneous Ethernet network traffic and storage device usage will be bottlenecked by the same bus. Wi-Fi does not route througthe USB bus, but youwill still typically only see around 20-40MBps over Wi-Fi instead of the theoretical 150Mbps for 802.11n. 
