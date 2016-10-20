@@ -11,3 +11,12 @@ The diminuitive Pi power needs opens the door for interesting mobile and embedde
 #Uses of a Raspberry Pi
 
 Network-attached storage (NAS) is a file-level computer data storage server connected to a computer network providing data access to a heterogeneous group of clients. NAS is specialized for serving files either by its hardware, software, or configuration. It is often manufactured as a computer appliance - a purpose-built specialized computer. NAS systems are networked appliances which contain one or more storage drives, often arranged into logical, redundant storage containers or RAID. 
+
+Network-attached storage removes the responsiblity of file serving from other servers on the network. They typically provide accs to files using network file sharing protocols such as NFS. NAS benefits include, dedicated network-attached storage, compared to general-purpose servers also serving files, include faster data access, easier administration, and simple configuration. 
+
+#So what can you do with it
+
+The first and most obvious route: use it as a computer. It definitely won't be the fastes machine in your house but it can accomplish basic tasks well. While you can hook it up to a full size mouse, keyboard and desktop display, there are tons of options for smaller displays, including touch screens, that make the the Pi ideal for various projects. 
+  - Digital photo frame
+  - Smart/Magic Mirror
+  - etc
